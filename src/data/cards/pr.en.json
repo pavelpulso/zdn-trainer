@@ -1,0 +1,29 @@
+{
+  "cards": [
+    { "file": "01.png", "items": ["The best way to get rid of an enemy is to make him a friend.", "Insults are the arguments of those who are in the wrong.", "Seek first to understand, then to be understood."] },
+    { "file": "02.png", "items": ["No one can save another; no one can defile another.", "To the pure, all things are pure; to the corrupt, all things are corrupt.", "A drop of water wears through stone by persistence."] },
+    { "file": "03.png", "items": ["Invincibility lies within yourself; the chance of victory lies in your opponent.", "Courtesy costs us nothing but yields much.", "Don't wake the beast in another. Don't expose yourself to needless risk."] },
+    { "file": "04.png", "items": ["The greatest cunning is to hide your cunning.", "You can resist an invasion of armies, but not an invasion of ideas.", "The fool marvels; the wise man asks a question."] },
+    { "file": "05.png", "items": ["A calm mind, like calm water, reflects reality more clearly.", "Anger is the wind that blows out the candle of the mind.", "Morning is wiser than evening."] },
+    { "file": "06.png", "items": ["The body governs the mind.", "Reason is the servant of instinct.", "Quiet water wears away the banks."] },
+    { "file": "07.png", "items": ["Haste is good only for catching fleas.", "This too shall pass.", "Pessimism is a mood; optimism is a will."] },
+    { "file": "08.png", "items": ["Success is not final, failure is not fatal: what matters is to keep going.", "He who asks the questions controls the conversation.", "Questions matter more than answers."] },
+    { "file": "09.png", "items": ["The word you speak is the word you'll hear in return.", "A wise question is half of knowledge.", "A man's mind is judged more easily by his questions than by his answers."] },
+    { "file": "10.png", "items": ["A fine answer goes to the one who asks a fine question.", "The fool stays silent; the wise man asks.", "The future is a mirror with no glass."] },
+    { "file": "11.png", "items": ["Permanence is an illusion; change is real.", "The road of 'Later' leads to the town of 'Never'.", "Dig the well before you're thirsty."] },
+    { "file": "12.png", "items": ["An action grows easy through repetition.", "New ideas are weaker than old habits.", "Words are sound waves, and I can choose what meaning to turn them into."] },
+    { "file": "13.png", "items": ["An ant in motion does more than a dozing ox.", "Whoever angers you controls you.", "You can't pour into a glass that's already full."] },
+    { "file": "14.png", "items": ["Do not cast pearls before swine.", "Open your listener's ear before you speak into it.", "Passion rules reason."] },
+    { "file": "15.png", "items": ["He who knows does not prove; he who proves does not know.", "Every good speaker began as a bad one.", "To express yourself clearly is to forestall misunderstanding."] },
+    { "file": "16.png", "items": ["Speak only when you are calm.", "Confidence is indifference to the outcome of the meeting.", "Even the most brilliant speech grows tiresome if you drag it out."] },
+    { "file": "17.png", "items": ["Mind your thoughts — they are the beginning of your deeds.", "False promises irritate more than honest refusals.", "All that we are is the result of our thoughts."] },
+    { "file": "18.png", "items": ["Ideas can be neutralized only by ideas.", "Woe to the one who says everything he could say.", "Hard in training, easy in battle."] },
+    { "file": "19.png", "items": ["Teachers only open the door; you enter by yourself.", "Victory over fear gives us strength.", "An eagle does not catch flies."] },
+    { "file": "20.png", "items": ["Everyone is glad to give advice while not knowing how to help himself.", "In insulting another, you neglect yourself.", "Lack of faith in yourself is the cause of most of our failures."] },
+    { "file": "21.png", "items": ["The weak believe in luck; the strong believe in cause and effect.", "A task left unplanned will not get done.", "No wind is favorable to a scattered mind."] },
+    { "file": "22.png", "items": ["The fool makes an enemy of a friend; the wise man makes a friend of an enemy.", "You can curse the darkness all your life, or you can light one small candle.", "All anger springs from powerlessness."] },
+    { "file": "23.png", "items": ["Hysterics are the swindler's last argument.", "The strongest of all is the one who masters himself.", "What begins in anger ends in shame."] },
+    { "file": "24.png", "items": ["Terror cannot coexist with laughter.", "If a man cannot govern himself, others begin to govern him.", "Passion and anger are the worst of counselors."] },
+    { "file": "25.png", "items": ["People believe what they want to believe.", "Where there is accord, there is victory.", "To the wise, everything is of benefit; to the fool, everything does harm."] }
+  ]
+}

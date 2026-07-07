@@ -1,0 +1,9 @@
+{
+  "cards": [
+    { "file": "01.png", "items": ["I see", "You may be right", "Very interesting", "That's an interesting thought", "Understood", "Thank you for bringing that to my attention"] },
+    { "file": "02.png", "items": ["All right", "I hear you", "I understand you", "That's an interesting point of view", "I see", "You could well think that"] },
+    { "file": "03.png", "items": ["That's genuinely important", "Noted", "Every situation is different", "That's a great point", "One moment, please", "I'm glad you mentioned that"] },
+    { "file": "04.png", "items": ["That does happen", "I'm glad you noticed that", "Thank you for the feedback", "That point of view is possible", "Understood", "Perhaps"] },
+    { "file": "05.png", "items": ["It's not out of the question", "There can be difficulties", "Curious", "Your position makes sense", "That's an interesting perspective", "There's something to think about here"] }
+  ]
+}

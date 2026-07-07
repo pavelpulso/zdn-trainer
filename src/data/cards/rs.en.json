@@ -1,0 +1,179 @@
+{
+  "cards": [
+    {
+      "file": "01.png",
+      "n": 1,
+      "formula": "A + Probably you think X, when in fact Y + Question?",
+      "manipulation": "Something's off with you... tell me, are you doing okay?",
+      "response": "Situations vary. Probably you think something's wrong with me, when in fact I'm doing just fine. Are you looking to be helpful to me?"
+    },
+    {
+      "file": "02.png",
+      "n": 2,
+      "formula": "A + The last thing I'd want is X, because what matters to me is Y + Question?",
+      "manipulation": "I'm doing all this for your sake, and you do nothing...",
+      "response": "I'm glad you brought that up. You know, the last thing I'd want is to be in your debt. What matters to me is acting the way I see fit on my own. And what does support mean to you?"
+    },
+    {
+      "file": "03.png",
+      "n": 3,
+      "formula": "A + It's good that (the positive in what they said) + Question?",
+      "manipulation": "You did your work well, sure, but you could have done better...",
+      "response": "That's one way to see it. I'm glad my work matters to you. Tell me, what did you like about it?"
+    },
+    {
+      "file": "04.png",
+      "n": 4,
+      "formula": "A + Imagine X / What if X / As if X + Question?",
+      "manipulation": "Are you even listening to me? Who am I talking to right now?",
+      "response": "I did hear you just now. And what if, right now, you and I are ready to actually hear each other? What do you really want to talk about?"
+    },
+    {
+      "file": "05.png",
+      "n": 5,
+      "formula": "A + Did I hear you correctly that you just said X + Question?",
+      "manipulation": "People like you used to get branded with a hot iron! Didn't you know?",
+      "response": "Interesting. Did I hear you correctly that you just said people like me used to be branded with a hot iron? Tell me, how does that move us toward solving the matter at hand?"
+    },
+    {
+      "file": "06.png",
+      "n": 6,
+      "formula": "A + The way I see it, something has gone wrong in our conversation + Question?",
+      "manipulation": "When are you going to lose weight? You barely fit through the door!",
+      "response": "Thank you for the feedback. It seems something has gone wrong in our conversation. And this definitely isn't about weight. Tell me, what's really going on?"
+    },
+    {
+      "file": "07.png",
+      "n": 7,
+      "formula": "A + Would you like to know the one detail here that people usually miss? (Sparking intrigue)",
+      "manipulation": "Are you kidding? That's way too expensive for a sofa like this?",
+      "response": "I hear you. You know, our potential customers usually say that when they don't yet see its value. Would you like me to tell you more about this sofa and what makes it special?"
+    },
+    {
+      "file": "08.png",
+      "n": 8,
+      "formula": "A + You just said that, and it gave me an interesting thought + Question?",
+      "manipulation": "Aren't you tired of studying? Just give it up already...",
+      "response": "Thank you for the interesting suggestion. You just said that, and it gave me an interesting thought! What if I told you more about the value of this training for us and our clients?"
+    },
+    {
+      "file": "09.png",
+      "n": 9,
+      "formula": "A + What are you really trying to say? (Reaching for the intent behind their words)",
+      "manipulation": "You look so unwell. You're not coming down with something, are you?",
+      "response": "Right. Thanks for the concern. What are you trying to say by that? Coming down with what, exactly?"
+    },
+    {
+      "file": "10.png",
+      "n": 10,
+      "formula": "A + What would you do in my place if it truly mattered to you to resolve this situation?",
+      "manipulation": "You were raised so badly — the least you can do is listen to me!",
+      "response": "I need to think it over and weigh it. And what would you do in my place if you heard words like these and it truly mattered to you to resolve this situation?"
+    },
+    {
+      "file": "11.png",
+      "n": 11,
+      "formula": "A + I'm at a loss (my emotions). Please help me understand this situation better + Question?",
+      "manipulation": "Don't overestimate your importance! You don't know everything!",
+      "response": "I understand. Honestly, I'm at a loss right now. Please help me get a better sense of what's happening here. Yes, I'm far from knowing everything. What exactly are you talking about right now?"
+    },
+    {
+      "file": "12.png",
+      "n": 12,
+      "formula": "A + It's good you brought this up now, because X + Question?",
+      "manipulation": "Everyone's become so mercenary these days! Nothing sacred is left...",
+      "response": "There's some truth to that. It's good you brought this up now, because it's one more reason for us to think about how to become better ourselves. What do you think about that?"
+    },
+    {
+      "file": "13.png",
+      "n": 13,
+      "formula": "A + Your words stir in me an urge to X, but instead I invite you to Y (constructive) + Question?",
+      "manipulation": "You keep making the same mistakes over and over...",
+      "response": "Hmm... your words leave me guessing, but instead — so as not to waste your time or mine — I invite you to discuss what you consider to be mistakes?"
+    },
+    {
+      "file": "14.png",
+      "n": 14,
+      "formula": "A + And let's look at this from the angle of X, not from the angle of Y + Question?",
+      "manipulation": "Is there anyone in this world besides yourself that you care about?",
+      "response": "I heard you. And let's look at this situation from the angle of partnership, not from the angle of a quarrel. What is truly important to you?"
+    },
+    {
+      "file": "15.png",
+      "n": 15,
+      "formula": "A + My aim isn't X. My aim is Y + Question?",
+      "manipulation": "What do you even do all day? You call that work? Enough!",
+      "response": "Interesting thought. My aim isn't to argue with you or convince you of anything. My aim is to do the work I love and answer to no one. And what does doing work you love mean to you?"
+    },
+    {
+      "file": "16.png",
+      "n": 16,
+      "formula": "A + That's exactly what my/your job is: to (solution) + Question?",
+      "manipulation": "I'm so sorry... I was set up! It's not my fault!",
+      "response": "Difficulties happen. Organizing your time so that a situation like this doesn't come up again — that's exactly what your job as a professional is. What solution do you see?"
+    },
+    {
+      "file": "17.png",
+      "n": 17,
+      "formula": "A + Let's suppose (agreement with their words), but then (the value being missed) + Question?",
+      "manipulation": "Please, call him instead of me! I'm really afraid to do it!",
+      "response": "I'm glad you said that. Let's suppose I called him instead of you and the conversation went well — but then how would you develop your own skills? What do you think about that?"
+    },
+    {
+      "file": "18.png",
+      "n": 18,
+      "formula": "A + I feel an urge to disagree with you. What would be the best way for me to handle a situation like this, in your view? + Question?",
+      "manipulation": "Are you paid to hold that wrong opinion of yours? Do you even believe it?",
+      "response": "This really does matter. I feel a genuine urge to disagree with you. What would be the best way for me to handle a situation like this, in your view? Shall I tell you more about this point of view?"
+    },
+    {
+      "file": "19.png",
+      "n": 19,
+      "formula": "A + Instead of X (what they expect), I invite you to Y + Question?",
+      "manipulation": "I'm so sorry, but that ship has sailed for you...",
+      "response": "Curious. Instead of getting upset right now, I invite you to discuss with me what options there are for resolving this situation. What do you think about that?"
+    },
+    {
+      "file": "20.png",
+      "n": 20,
+      "formula": "A + Allow me to disagree with you, because X + Question?",
+      "manipulation": "Why should I explain anything to you if you always do everything your own way?",
+      "response": "Right. Allow me to disagree with you, because to make an accurate decision we need all the details on this project. When would it be convenient for you to give us everything we need?"
+    },
+    {
+      "file": "21.png",
+      "n": 21,
+      "formula": "A + The way I see it, if we don't do X, we'll lose Y + Question?",
+      "manipulation": "We've got a problem! Are you blind? Why aren't you solving it right now?",
+      "response": "Yes, there are difficulties. The way I see it, if we don't get our collaboration working, we'll lose the chance to deal with it as fast as possible. Why did you decide to come to me specifically?"
+    },
+    {
+      "file": "22.png",
+      "n": 22,
+      "formula": "A + I invite you to see the whole picture, so that X, otherwise there's a risk of Y + Question?",
+      "manipulation": "It feels like you're leading me into some dark forest with all these tricks of yours...",
+      "response": "I can see how it might come across that way. I invite you to see the whole picture of the current situation, otherwise there's a risk of losing not only money but time. Would it be convenient for you to hear me out now?"
+    },
+    {
+      "file": "23.png",
+      "n": 23,
+      "formula": "A + If you truly want X, then we can Y. Instead, I invite you to Z + Question?",
+      "manipulation": "What are you talking about? Is this what you studied ten years for?",
+      "response": "Right. If you truly want to argue right now, then we can end this conversation. Instead, I invite you to take a pause and discuss all the details of the task at hand. How do you feel about that?"
+    },
+    {
+      "file": "24.png",
+      "n": 24,
+      "formula": "A + In other words, are you saying X? + Question?",
+      "manipulation": "How many times do I have to repeat myself before you hear me?",
+      "response": "Right. In other words, are you saying I don't want to hear you? That's out of the question. Please, tell me what's going on. How did you arrive at these conclusions?"
+    },
+    {
+      "file": "25.png",
+      "n": 25,
+      "formula": "A + In my experience I've already seen X, which is why Y + Question?",
+      "manipulation": "It's impossible to have a normal conversation with you!",
+      "response": "Thank you for saying that. In my experience I've already seen situations where, right after words like these, the conversation became impossible — which is why I invite you to take a pause and discuss what truly matters to you. What do you think about that?"
+    }
+  ]
+}

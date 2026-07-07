@@ -1,0 +1,93 @@
+:root {
+  /* base surfaces — cool graphite, "console under pressure" */
+  --ink-900: #0e1319;
+  --ink-850: #131a22;
+  --ink-800: #18212b;
+  --ink-750: #1e2833;
+  --ink-700: #26323f;
+  --line: #2c3945;
+  --line-soft: #232e39;
+
+  /* text */
+  --fg: #eef2f4;
+  --fg-dim: #aebac5;
+  --fg-mute: #74828f;
+
+  /* category hues — each technique keeps its meaning-color */
+  --kr: #e8503f;   /* крючок / атака — ember */
+  --kr-deep: #7d241c;
+  --am: #6fa8dc;   /* амортизация — лёд */
+  --rs: #4fb09a;   /* речевая стратегия — нефрит */
+  --za: #9db3c6;   /* захват вопросом — сталь */
+  --pr: #e7b24b;   /* принципы — янтарь */
+  --vn: #b49ac9;   /* внутренняя защита — лиловый */
+
+  --accent: var(--rs);
+
+  --radius: 14px;
+  --radius-lg: 22px;
+  --shadow: 0 18px 50px -20px rgba(0, 0, 0, 0.7);
+  --shadow-card: 0 12px 34px -16px rgba(0, 0, 0, 0.65);
+
+  --ff-display: 'Unbounded', system-ui, sans-serif;
+  --ff-body: 'Golos Text', system-ui, sans-serif;
+
+  --step: clamp(1rem, 0.6rem + 1.4vw, 1.5rem);
+  --gutter: clamp(1rem, 0.4rem + 2.6vw, 2.75rem);
+  --maxw: 1180px;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  font-family: var(--ff-body);
+  font-weight: 400;
+  color: var(--fg);
+  background:
+    radial-gradient(1200px 620px at 82% -8%, rgba(79, 176, 154, 0.10), transparent 60%),
+    radial-gradient(900px 520px at 8% 108%, rgba(232, 80, 63, 0.08), transparent 55%),
+    var(--ink-900);
+  background-attachment: fixed;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4 { font-family: var(--ff-display); font-weight: 600; margin: 0; line-height: 1.06; }
+
+button { font-family: inherit; cursor: pointer; }
+input, textarea, select { font-family: inherit; }
+
+:focus-visible {
+  outline: 2px solid var(--rs);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+::selection { background: rgba(79, 176, 154, 0.32); color: #fff; }
+
+/* thin custom scrollbars for the console feel */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--line) transparent;
+}
+
+.u-eyebrow {
+  font-family: var(--ff-body);
+  font-weight: 600;
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--fg-mute);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

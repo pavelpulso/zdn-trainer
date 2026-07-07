@@ -1,0 +1,1706 @@
+{
+  "scenarios": [
+    {
+      "id": 1,
+      "section": "Work & career",
+      "phrase": "Staying late again? Guess you just can't manage your time or stay on top of your tasks.",
+      "who": "Your manager during a team stand-up.",
+      "you": "An employee forced to stay past hours because of an overwhelming workload.",
+      "negative": "They're criticizing you and painting you as an incompetent worker to make you feel guilty.",
+      "positive": "Your manager is worried you're overworking and just expresses it bluntly, hoping to nudge you toward better time planning."
+    },
+    {
+      "id": 2,
+      "section": "Work & career",
+      "phrase": "Well, if you don't have the guts to pitch your idea, then it's clearly not worth anyone's attention.",
+      "who": "A colleague cornering you before a meeting.",
+      "you": "A specialist unsure whether to propose a new solution.",
+      "negative": "The colleague is pressing on your insecurity to make you back down or start justifying yourself.",
+      "positive": "The colleague sees you're hesitant and is trying to provoke you into stepping up and believing in your project."
+    },
+    {
+      "id": 3,
+      "section": "Work & career",
+      "phrase": "Are you really sure you can handle this project? The last guy who tried failed, and he was more experienced than you.",
+      "who": "A manager hinting at your possible incompetence.",
+      "you": "Someone who has just taken on a tough new project.",
+      "negative": "They're intimidating you with comparisons, trying to make you panic or scramble to justify yourself.",
+      "positive": "Your manager is anxious about how ready you are for the task, but phrases it clumsily, fishing for reassurance that you understand the risks."
+    },
+    {
+      "id": 4,
+      "section": "Work & career",
+      "phrase": "Everyone else already figured out the new system, and you're the only one who still hasn't gotten it?",
+      "who": "A senior colleague or training manager.",
+      "you": "An employee who finds technical changes harder to pick up.",
+      "negative": "It's designed to make you feel like you're falling behind, triggering shame and fear of comparison.",
+      "positive": "The senior colleague notices the new system is harder for you and wants you to get up to speed, but picks a bad comparison instead of offering support."
+    },
+    {
+      "id": 5,
+      "section": "Work & career",
+      "phrase": "Your ambitions don't match your actual skills. Maybe work on yourself for a couple of years before reaching higher?",
+      "who": "A colleague or HR rep you're discussing career growth with.",
+      "you": "An employee who applied for a promotion.",
+      "negative": "They're trying to undermine your confidence and talk you out of the promotion.",
+      "positive": "They want to warn you against rushing and advise you to assess your abilities honestly, but they do it harshly."
+    },
+    {
+      "id": 6,
+      "section": "Work & career",
+      "phrase": "Around here everyone's on fire about the work, and you just clock in and clock out on schedule. Weird...",
+      "who": "A colleague who usually stays late to show their dedication to the company.",
+      "you": "An employee who keeps a healthy work-life balance.",
+      "negative": "Pressure through comparison — painting you as an uninterested employee.",
+      "positive": "The colleague genuinely can't grasp that you can work effectively without staying late, and is trying to figure out why you don't stick around."
+    },
+    {
+      "id": 7,
+      "section": "Work & career",
+      "phrase": "You could at least say thank you once for the chance we're giving you to prove yourself.",
+      "who": "A manager stressing that your role is to passively receive favors from above.",
+      "you": "A specialist with plenty of skills, being reminded of the boss's generosity.",
+      "negative": "They're putting you in a dependent position, trying to extract gratitude and obedience.",
+      "positive": "The boss wants to show that the company is investing in you and would like some recognition for it, but frames it poorly."
+    },
+    {
+      "id": 8,
+      "section": "Work & career",
+      "phrase": "Planning to outlast everyone and quietly grab the boss's chair? Building a career at other people's expense?",
+      "who": "A colleague with paranoid career anxiety.",
+      "you": "An employee who simply does their job well and has no interest in office politics.",
+      "negative": "An attempt to make you feel guilty and cast suspicion on your motives.",
+      "positive": "The colleague is afraid someone from within might overtake them and voices that anxiety, unable to just ask you directly about your plans."
+    },
+    {
+      "id": 9,
+      "section": "Work & career",
+      "phrase": "Since we're all working so hard, you can't take a vacation either. We're a team, after all.",
+      "who": "A colleague or boss during a crunch at work.",
+      "you": "An employee who had planned a well-earned vacation.",
+      "negative": "Blackmail through collective responsibility, pressure on your loyalty to the group.",
+      "positive": "Your colleagues worry it'll be even harder without you during a tough stretch, and don't know how to discuss the workload properly."
+    },
+    {
+      "id": 10,
+      "section": "Work & career",
+      "phrase": "If you don't stay for overtime, I'll tell the boss you're not a team player.",
+      "who": "A colleague trying to dump their work on you.",
+      "you": "An employee who cares about not looking like the bad guy.",
+      "negative": "Outright blackmail, forcing you to sacrifice your own time for someone else's goals.",
+      "positive": "The colleague is on the verge of burnout from overload and is panicking, trying to pull you in — but does it with an ultimatum instead of just asking."
+    },
+    {
+      "id": 11,
+      "section": "Family relationships",
+      "phrase": "You never notice how hard things are for me! I guess you just don't care about me.",
+      "who": "Your spouse in an emotional conversation.",
+      "you": "A family member trying to understand what's going on.",
+      "negative": "They're trying to sting you and make you feel guilty for being 'indifferent.'",
+      "positive": "Your spouse genuinely feels invisible and wants to be heard, but frames it too emotionally and accusingly."
+    },
+    {
+      "id": 12,
+      "section": "Family relationships",
+      "phrase": "If you won't help my parents financially, that means you don't respect us.",
+      "who": "Your spouse, whose relatives are asking for money.",
+      "you": "The one managing the family budget, not ready for a big expense.",
+      "negative": "They're manipulating respect for parents to squeeze financial concessions out of you.",
+      "positive": "Your partner is anxious about their parents' well-being and can't calmly explain why it matters so much to them."
+    },
+    {
+      "id": 13,
+      "section": "Family relationships",
+      "phrase": "Every decent husband (wife) has already renovated their place, and we're still living in this dump.",
+      "who": "A spouse with inflated expectations.",
+      "you": "Someone who takes your real financial situation into account.",
+      "negative": "Comparison with 'normal' families, pressure on your ego.",
+      "positive": "Your spouse sees others improving their homes and worries you're falling behind; they try to voice that worry, but reach for unfair comparisons."
+    },
+    {
+      "id": 14,
+      "section": "Family relationships",
+      "phrase": "If you don't come to the family dinner, Grandma will be upset, and that'll be entirely on your conscience!",
+      "who": "A parent or older family member.",
+      "you": "Someone with important plans who genuinely can't attend.",
+      "negative": "Pressure on guilt and responsibility for a relative's well-being.",
+      "positive": "The family really is afraid of upsetting Grandma and can't gently express how much your presence means."
+    },
+    {
+      "id": 15,
+      "section": "Family relationships",
+      "phrase": "All you care about is working and earning money — you've got no energy or time left for your loved ones!",
+      "who": "A spouse or parent who feels you don't give them enough attention.",
+      "you": "Someone trying to balance work and family life.",
+      "negative": "Reproaches about being 'absent' at home, stoking guilt.",
+      "positive": "A loved one feels the lack of your emotional and physical presence and doesn't know another way to voice their need for care."
+    },
+    {
+      "id": 16,
+      "section": "Family relationships",
+      "phrase": "Why do I have to do everything myself? What, do you think I'm the maid around here?",
+      "who": "A spouse feeling overwhelmed by household chores.",
+      "you": "A partner busy with your own things, who doesn't always get around to helping.",
+      "negative": "They accuse you of an unfair split of chores to make you jump in right away.",
+      "positive": "This person is genuinely exhausted and lacks support, but expresses it as an accusation because they're afraid of being left alone with everything."
+    },
+    {
+      "id": 17,
+      "section": "Family relationships",
+      "phrase": "I told you it was a bad idea, and you didn't listen. Now deal with it yourself.",
+      "who": "A parent or spouse who warned you about the possible fallout.",
+      "you": "Someone facing the bad outcome of your own decision.",
+      "negative": "They put you in an 'I told you so' spot to make you feel guilty and regretful.",
+      "positive": "Your loved one is upset their advice was ignored but wants to help you learn from the mistake; they express it in a hurt, preachy tone."
+    },
+    {
+      "id": 18,
+      "section": "Family relationships",
+      "phrase": "Is it really so hard to bring me flowers once a month? Other husbands give them every single day!",
+      "who": "A wife longing for romantic gestures.",
+      "you": "Someone not used to expressing feelings through gifts.",
+      "negative": "Comparison with 'ideal' partners, pressure on your sense of duty.",
+      "positive": "Your partner misses romance and fears you've stopped trying, but can't say it calmly and without comparisons."
+    },
+    {
+      "id": 19,
+      "section": "Family relationships",
+      "phrase": "If I don't feel supported, then why are we even together?",
+      "who": "A spouse worn out by feeling misunderstood.",
+      "you": "A partner trying to keep balance but not always able to help.",
+      "negative": "The value of the relationship is called into question to get the reaction they want.",
+      "positive": "This person is deeply unhappy, afraid of ending up alone, and uses harsh words to draw your attention to their pain."
+    },
+    {
+      "id": 20,
+      "section": "Family relationships",
+      "phrase": "You never care about my feelings, only your own!",
+      "who": "A loved one wanting more empathy.",
+      "you": "Someone who tries to consider everyone's interests but slipped up this time.",
+      "negative": "The absolute word 'never' is meant to trigger sharp guilt.",
+      "positive": "They feel their experiences are being overshadowed and want you to engage more deeply with their emotions, but frame the complaint too harshly."
+    },
+    {
+      "id": 21,
+      "section": "Friendships",
+      "phrase": "Look, we're all grown-ups here, and you still act like a teenager.",
+      "who": "A friend who considers themselves more 'mature.'",
+      "you": "Someone who keeps a lighthearted attitude toward life.",
+      "negative": "They're trying to belittle you by painting you as unserious.",
+      "positive": "Your friend worries your carefree attitude could lead to problems and wants you to be more responsible, but can't say it gently."
+    },
+    {
+      "id": 22,
+      "section": "Friendships",
+      "phrase": "Not coming out with us again? Got some 'special' crowd that's better than us now?",
+      "who": "A longtime friend hurt by how rarely you show up.",
+      "you": "Someone who's very busy or just isn't into some of the group's activities.",
+      "negative": "Guilt-tripping — implying you think you're above the friend group.",
+      "positive": "Your friend misses you, can't just say they wish you were around more, and tries to needle you into explaining why you've been absent."
+    },
+    {
+      "id": 23,
+      "section": "Friendships",
+      "phrase": "If you don't back my idea, then you're not a real friend.",
+      "who": "A close buddy caught up in a dubious project.",
+      "you": "A friend doubting whether the idea makes sense.",
+      "negative": "Blackmail through friendship to get approval or money.",
+      "positive": "Your buddy is genuinely counting on your support because they value your opinion and want you to believe in them, but can't make a solid case for the project."
+    },
+    {
+      "id": 24,
+      "section": "Friendships",
+      "phrase": "You always ruin things with your clever little speeches. Can't you just relax like everyone else?",
+      "who": "A fun-loving buddy who doesn't like how serious you get.",
+      "you": "Someone who enjoys discussing deep topics.",
+      "negative": "They mock your intellectual side to make you defensive.",
+      "positive": "Your buddy thinks your musings are killing the mood for the group and wants you to switch to a lighter kind of conversation."
+    },
+    {
+      "id": 25,
+      "section": "Friendships",
+      "phrase": "You stopped picking up the phone — guess you think you're better than the rest of us now.",
+      "who": "A friend you haven't called back in a while.",
+      "you": "Someone busy with school or work who didn't get around to replying.",
+      "negative": "An attempt to accuse you of snobbery or arrogance.",
+      "positive": "Your friend worries they've lost touch with you and can't just ask if everything's okay, so they voice their concern as a reproach."
+    },
+    {
+      "id": 26,
+      "section": "Friendships",
+      "phrase": "Wouldn't a real friend find the time to help? And you don't exactly seem in a hurry.",
+      "who": "A friend who urgently needs your help — possibly over something trivial.",
+      "you": "A busy person who can't help right now.",
+      "negative": "They press on the ideal of friendship to make you feel guilty and afraid of being a 'bad' friend.",
+      "positive": "Your friend is in a tight spot and scared, and doesn't know how to ask for help except through reproaches."
+    },
+    {
+      "id": 27,
+      "section": "Friendships",
+      "phrase": "You talk about your wins so much that the rest of us already feel like losers.",
+      "who": "A classmate or acquaintance who hasn't reached the same level.",
+      "you": "Someone genuinely sharing their achievements.",
+      "negative": "They use envy as leverage, trying to accuse you of bragging.",
+      "positive": "Your acquaintance feels the gap between your results and theirs, hurts because of it, and can't say that hearing about your success is painful."
+    },
+    {
+      "id": 28,
+      "section": "Friendships",
+      "phrase": "If you thought a little less about your career, we could be friends like we used to.",
+      "who": "A close friend from the past who dislikes how career-focused you've become.",
+      "you": "Someone actively working toward their future.",
+      "negative": "Pressure through nostalgia — 'you betrayed our old crew.'",
+      "positive": "Your friend misses the old days and can't say they miss the time you spent together and the ease you used to share."
+    },
+    {
+      "id": 29,
+      "section": "Friendships",
+      "phrase": "Wow, we've got a get-together and you're making excuses again. Maybe someone's more important than us?",
+      "who": "A friend who regularly plans meetups at times that don't work for you.",
+      "you": "Someone who can't or doesn't want to join every single event.",
+      "negative": "Implying you put someone else 'above' your friends.",
+      "positive": "Your friend is hurt and wants to understand why you don't come, because they value your presence, but expresses it with suspicion instead of asking directly."
+    },
+    {
+      "id": 30,
+      "section": "Friendships",
+      "phrase": "If we don't split it evenly, then you don't value our friendship.",
+      "who": "A friend proposing a joint purchase or trip.",
+      "you": "Someone who can't afford the requested amount right now.",
+      "negative": "Directly tying a financial contribution to friendship.",
+      "positive": "Your friend is afraid they can't cover all the costs alone and wants fairness, but frames it as an ultimatum."
+    },
+    {
+      "id": 31,
+      "section": "Money & finances",
+      "phrase": "You still can't pay me back? Guess I don't matter to you.",
+      "who": "An acquaintance or relative you owe a small sum.",
+      "you": "Someone going through a temporary rough patch financially.",
+      "negative": "They draw conclusions about how you feel about them based on a late repayment.",
+      "positive": "This person worries you're ignoring them or don't intend to repay, and can't calmly discuss a timeline."
+    },
+    {
+      "id": 32,
+      "section": "Money & finances",
+      "phrase": "All successful people have been investing for ages, and you're going to stay broke forever.",
+      "who": "A colleague or friend caught up in investing.",
+      "you": "Someone cautious about risk who isn't investing yet.",
+      "negative": "They use comparison with 'successful' people to bruise your ego.",
+      "positive": "They genuinely see investing as the path to prosperity and want to motivate you, but use a harsh, belittling phrasing."
+    },
+    {
+      "id": 33,
+      "section": "Money & finances",
+      "phrase": "You penny-pinch on everything. You only live once — you can't be that stingy!",
+      "who": "An acquaintance who loves to spend money.",
+      "you": "Someone who prefers sensible saving and planning.",
+      "negative": "They press on the idea that your thriftiness is a flaw, pushing you to spend more.",
+      "positive": "Your acquaintance genuinely worries you're missing out on life's joys and tries to shake you up, but does it by dismissing your instinct to save."
+    },
+    {
+      "id": 34,
+      "section": "Money & finances",
+      "phrase": "Your whole business is kid stuff — you'll never scale up unless you take out a loan.",
+      "who": "An acquaintance convinced a loan is the best way to grow revenue.",
+      "you": "An entrepreneur growing steadily and cautious about financial risk.",
+      "negative": "Outright dismissal of your methods to push you into reckless moves.",
+      "positive": "Your acquaintance sees your potential and thinks a loan would help you grow faster, but can't offer that support gently and comes off crude."
+    },
+    {
+      "id": 35,
+      "section": "Money & finances",
+      "phrase": "You bought something that expensive? You know, it looks like you're just trying to show off.",
+      "who": "A friend or relative criticizing your spending.",
+      "you": "Someone who allowed themselves a pricey purchase after saving up.",
+      "negative": "They accuse you of being flashy to provoke shame.",
+      "positive": "They genuinely think you could have used that money more wisely or invested it in something useful, but choose reproach over a constructive conversation."
+    },
+    {
+      "id": 36,
+      "section": "Money & finances",
+      "phrase": "Since you're earning so much now, buy us all a gift! Or are you being cheap?",
+      "who": "Colleagues or friends who know about your raise.",
+      "you": "Someone who got a modest bump in pay.",
+      "negative": "They press on an 'obligation to share' to get at your money.",
+      "positive": "The people around you are happy for your success and want to celebrate, but instead of a friendly hint they pick a demanding tone, not knowing how to set the mood right."
+    },
+    {
+      "id": 37,
+      "section": "Money & finances",
+      "phrase": "You're not putting money in, so you don't believe in what we're building — why would we want a partner like that?",
+      "who": "A partner in a potential business venture.",
+      "you": "Someone who has doubts or isn't ready to take the risk.",
+      "negative": "Your loyalty and commitment are being called into question.",
+      "positive": "The partner feels the project might fail without your investment and tries to motivate you to back the idea, but does it through pressure and accusations."
+    },
+    {
+      "id": 38,
+      "section": "Money & finances",
+      "phrase": "You can't manage your own finances — that's exactly why you've got nothing.",
+      "who": "A relative or acquaintance who thinks they're more financially savvy.",
+      "you": "Someone hit by a temporary money crunch.",
+      "negative": "They belittle your ability to handle money.",
+      "positive": "They mean to say they sympathize with your problems and think you're irresponsible with money, but can't voice it kindly."
+    },
+    {
+      "id": 39,
+      "section": "Money & finances",
+      "phrase": "Why do you need all these savings just sitting there? Money should be working while you're not.",
+      "who": "An acquaintance who preaches aggressive investing.",
+      "you": "A cautious person who prefers financial security.",
+      "negative": "A provocation to make you feel you're 'missing out on opportunities.'",
+      "positive": "Your acquaintance genuinely believes investing would earn you money, but sharply dismisses your preference for keeping funds safe."
+    },
+    {
+      "id": 40,
+      "section": "Money & finances",
+      "phrase": "If you don't get me something worthwhile for my birthday, I'll know how little I mean to you.",
+      "who": "A close friend or relative expecting an expensive gift.",
+      "you": "Someone who picks gifts from the heart, not by price tag.",
+      "negative": "Tying the value of a gift to the value of the relationship, blackmailing through feelings.",
+      "positive": "Your friend or relative just really wants to feel your love and attention, but links it directly to material value because of ingrained stereotypes."
+    },
+    {
+      "id": 41,
+      "section": "Health & fitness",
+      "phrase": "Aren't you ashamed of the shape you're in? Look at everyone else — they all work on themselves.",
+      "who": "An acquaintance who actively watches their own figure.",
+      "you": "Someone who hasn't reached their goal yet, or is just starting a healthier lifestyle.",
+      "negative": "They push the idea that you're 'lagging behind,' triggering shame and insecurity.",
+      "positive": "Your acquaintance genuinely wants you to take care of your health but can't motivate you gently, assuming shame is the best incentive."
+    },
+    {
+      "id": 42,
+      "section": "Health & fitness",
+      "phrase": "You seriously think these exercises will help? Better not waste your time.",
+      "who": "A friend or relative skeptical of anything new.",
+      "you": "Someone trying to improve their health through regular workouts.",
+      "negative": "Sarcastic dismissal of your efforts to kill your motivation.",
+      "positive": "They worry your routine might not be effective enough and want to warn you, but voice their doubts too categorically."
+    },
+    {
+      "id": 43,
+      "section": "Health & fitness",
+      "phrase": "Oh, on a diet again? You'll probably fall off it like last time.",
+      "who": "The same acquaintance who already watched your past attempts.",
+      "you": "Someone persistently trying to change their eating habits.",
+      "negative": "They manipulate your history of failure to make you doubt yourself.",
+      "positive": "They worry you keep putting yourself through this and fear you'll quit again, but can't support you constructively."
+    },
+    {
+      "id": 44,
+      "section": "Health & fitness",
+      "phrase": "If you're this lazy, maybe just admit you want to be unhealthy.",
+      "who": "A trainer or 'fitness guru' with a harsh approach.",
+      "you": "A client struggling with the intense workload.",
+      "negative": "They force a choice between 'lazy' and 'healthy,' stripping away flexibility and motivation.",
+      "positive": "The trainer doesn't know another way to push you toward persistence and tries to shake you up, believing toughness works best."
+    },
+    {
+      "id": 45,
+      "section": "Health & fitness",
+      "phrase": "Everyone else looks energized on the run, and you're the only one plodding along like a turtle.",
+      "who": "A workout buddy during a group session.",
+      "you": "A beginner whose stamina is still low.",
+      "negative": "A crude comparison with others to make you feel like the one 'falling behind.'",
+      "positive": "Your buddy notices you've dropped way back and worries you're struggling, but can't offer support or encouragement, so they pick a jab instead."
+    },
+    {
+      "id": 46,
+      "section": "Health & fitness",
+      "phrase": "You talk about healthy eating, but you had fast food yesterday. Don't make me laugh!",
+      "who": "A loved one noticing your slip-ups.",
+      "you": "Someone striving for a healthy lifestyle but still far from perfect.",
+      "negative": "They reproach you for not living up to your ideals, pointing to 'hypocrisy.'",
+      "positive": "They want to show you're contradicting your own principles and worry you're fooling yourself, but deliver it with a jab."
+    },
+    {
+      "id": 47,
+      "section": "Health & fitness",
+      "phrase": "If you can't lift these weights, why even bother coming to the gym?",
+      "who": "A more advanced gym-goer.",
+      "you": "A beginner still far from heavy loads.",
+      "negative": "They dismiss the point of your training and cast doubt on your progress.",
+      "positive": "They think you may have picked too light a load and believe you're capable of more, but express it clumsily and harshly."
+    },
+    {
+      "id": 48,
+      "section": "Health & fitness",
+      "phrase": "All the real athletes run marathons, and you're too shy to even run a couple of kilometers.",
+      "who": "A friend who has already run marathons.",
+      "you": "Someone not ready for such distances yet.",
+      "negative": "Pressure through the 'pro standard,' making your results feel insignificant.",
+      "positive": "Your friend wants to inspire you toward big achievements and genuinely believes in your potential, but picks provocation over support."
+    },
+    {
+      "id": 49,
+      "section": "Health & fitness",
+      "phrase": "Look at yourself — is that any way to live? I'd be ashamed if I were you.",
+      "who": "A relative or friend claiming to care about your health.",
+      "you": "Someone trying to find their motivation but running into criticism.",
+      "negative": "Direct judgment of your appearance or lifestyle to provoke shame.",
+      "positive": "They worry about your well-being and don't see any way to get your attention other than blunt criticism."
+    },
+    {
+      "id": 50,
+      "section": "Health & fitness",
+      "phrase": "You've worked out for three days and you're already bragging? That's laughable — people put in years.",
+      "who": "A skeptic who won't acknowledge any progress along the way.",
+      "you": "Someone excited about their first results.",
+      "negative": "They discourage you from sharing your small victories.",
+      "positive": "The skeptic is convinced you should assess your journey soberly, fears you'll get cocky or celebrate too early, and can't offer proper advice about long-term motivation."
+    },
+    {
+      "id": 51,
+      "section": "Education & self-development",
+      "phrase": "You read so much and there's zero to show for it. What's the point?",
+      "who": "A relative or friend who sees no practical benefit in reading.",
+      "you": "Someone who loves growing through books but hasn't turned it into career results yet.",
+      "negative": "A reproach that your efforts are pointless, dismissing the value of knowledge.",
+      "positive": "Your loved one worries you're pouring resources into reading without any 'visible' payoff, and that worry makes them blunt."
+    },
+    {
+      "id": 52,
+      "section": "Education & self-development",
+      "phrase": "Self-development courses are for losers. Smart people just get on with it.",
+      "who": "An acquaintance who thinks all trainings are a scam.",
+      "you": "Someone taking courses to build their skills.",
+      "negative": "They mock your way of learning to make you drop it.",
+      "positive": "Your acquaintance may have had a bad experience with trainings and wants to protect you, but reaches for blunt, belittling phrasing."
+    },
+    {
+      "id": 53,
+      "section": "Education & self-development",
+      "phrase": "Changing careers again? You're forever jumping from one idea to the next.",
+      "who": "A friend or relative used to stability.",
+      "you": "Someone searching for their calling by trying different fields.",
+      "negative": "They reproach you for being inconsistent, belittling your search for yourself.",
+      "positive": "They worry you keep switching direction and fear you'll waste time and resources, but don't know how to support your self-exploration."
+    },
+    {
+      "id": 54,
+      "section": "Education & self-development",
+      "phrase": "You're going for a master's? You probably just don't want to work!",
+      "who": "A colleague who thinks further education is a waste of time.",
+      "you": "A graduate planning to continue studying.",
+      "negative": "They mock your choice, reducing it to laziness and an unwillingness to work.",
+      "positive": "The colleague believes hands-on experience matters more and genuinely worries you're wasting time in school instead of on a real career, but says it hurtfully."
+    },
+    {
+      "id": 55,
+      "section": "Education & self-development",
+      "phrase": "Sure, you read 50 books a year. But does it actually help you in real life?",
+      "who": "A buddy who sees no results from your intellectual pursuits.",
+      "you": "A lover of reading and self-education.",
+      "negative": "They're trying to convince you the knowledge you gain is useless.",
+      "positive": "Your buddy may worry you're not putting that knowledge into practice and wants to know how it actually applies, but says it dismissively."
+    },
+    {
+      "id": 56,
+      "section": "Education & self-development",
+      "phrase": "How much longer are you going to study? You're not 20 anymore. Watch out — life will pass you by!",
+      "who": "An older relative or friend who thinks it's 'too late to study.'",
+      "you": "An adult who decided to change careers or gain new knowledge.",
+      "negative": "They scare you with 'age' and 'lost time,' undermining your motivation.",
+      "positive": "Your relative fears you'll spend too many years studying and miss other opportunities (family, career), but doesn't know how to support your choice."
+    },
+    {
+      "id": 57,
+      "section": "Education & self-development",
+      "phrase": "Online courses are useless — all the normal people study in person.",
+      "who": "A conservative acquaintance.",
+      "you": "Someone who chose an online format that works for them.",
+      "negative": "Pressure toward 'tradition,' dismissing new ways of learning.",
+      "positive": "Most likely they've never encountered a quality online program and genuinely worry you won't get the training you need."
+    },
+    {
+      "id": 58,
+      "section": "Education & self-development",
+      "phrase": "Failed the exam again? Well, what can you say — you just don't have the aptitude.",
+      "who": "A harsh professor or classmate.",
+      "you": "A student who finds a particular subject difficult.",
+      "negative": "Outright dismissal of your intellectual abilities.",
+      "positive": "They see your failure and fear you're not putting in enough study time; instead of helping, they voice it as criticism."
+    },
+    {
+      "id": 59,
+      "section": "Education & self-development",
+      "phrase": "You're so proud of your degrees, but you've never actually done any serious work.",
+      "who": "An acquaintance who thinks degrees don't guarantee skills.",
+      "you": "Someone with lots of certificates and diplomas.",
+      "negative": "They call the value of your education into question.",
+      "positive": "They're trying to say practical results matter more than paper, but phrase it harshly, ignoring your real accomplishments."
+    },
+    {
+      "id": 60,
+      "section": "Education & self-development",
+      "phrase": "You know, smart people don't need to be taught — they figure it all out on their own. So your courses are just a waste of time and money.",
+      "who": "A cocky person convinced knowledge comes out of thin air.",
+      "you": "Someone who studies methodically and takes courses.",
+      "negative": "The very value of learning is questioned, and your motivation is mocked.",
+      "positive": "They believe in the idea of innate genius and are trying to say you're already capable enough, but in doing so they dismiss your need for structured learning."
+    },
+    {
+      "id": 61,
+      "section": "Romantic relationships",
+      "phrase": "Since you're so busy and have no time for me, it means you just don't care about me.",
+      "who": "A partner upset by how busy you are.",
+      "you": "Someone juggling work and personal life who can't give their partner much attention.",
+      "negative": "They're trying to make you feel guilty for being busy.",
+      "positive": "Your partner genuinely misses your involvement and thinks you're drifting away, but can't just ask whether everything's okay and when you'll have time together."
+    },
+    {
+      "id": 62,
+      "section": "Romantic relationships",
+      "phrase": "You haven't said you love me for a whole week. I guess you've cooled off.",
+      "who": "A sensitive partner who needs frequent reassurance of your feelings.",
+      "you": "Someone more reserved about expressing love in words.",
+      "negative": "Manipulation over a lack of 'verbal signs,' triggering guilt.",
+      "positive": "Your partner deeply values verbal reassurance and worries the silence means your feelings are fading, but doesn't know another way to say it."
+    },
+    {
+      "id": 63,
+      "section": "Romantic relationships",
+      "phrase": "You want to go out alone? So you're planning to hide something from me.",
+      "who": "A jealous partner.",
+      "you": "Someone who wants personal space or some solitude.",
+      "negative": "Pressure through suspicion, restricting your freedom.",
+      "positive": "Your partner is afraid of losing you or feels you're drifting away, and shows anxiety that comes out, mistakenly, as distrust."
+    },
+    {
+      "id": 64,
+      "section": "Romantic relationships",
+      "phrase": "If you don't support my decision, then you don't understand me or accept me.",
+      "who": "A partner with firm views on an important matter (moving, changing jobs, etc.).",
+      "you": "Someone doubting whether it's the right choice.",
+      "negative": "A bait-and-switch: no agreement = no love.",
+      "positive": "Your partner expects full approval of their ideas and fears your disagreement means you're rejecting them as a person, but can't separate a dispute over an idea from a personal one."
+    },
+    {
+      "id": 65,
+      "section": "Romantic relationships",
+      "phrase": "How can you trust other people more than me? I'm your other half!",
+      "who": "A partner claiming a monopoly on your trust.",
+      "you": "Someone who consults with friends or family.",
+      "negative": "Jealousy of your circle, an attempt to isolate you from outside opinions.",
+      "positive": "Your partner wants to feel like the closest person in your life and worries you don't share with them things you tell others."
+    },
+    {
+      "id": 66,
+      "section": "Romantic relationships",
+      "phrase": "I gave up everything for you, and you can't even meet me halfway?",
+      "who": "A partner reminding you of the sacrifices they made for the relationship.",
+      "you": "The one expected to make a matching 'sacrifice' or compromise.",
+      "negative": "Pressure through 'debt' and guilt over your supposed ingratitude.",
+      "positive": "Your partner genuinely wants to even out the contributions to the relationship, but delivers it as an ultimatum because they see no other way to convey how much their sacrifice meant."
+    },
+    {
+      "id": 67,
+      "section": "Romantic relationships",
+      "phrase": "All normal couples spend weekends together, and you're off partying with friends. So are you with me or with them?",
+      "who": "A partner convinced weekends should be for the two of you only.",
+      "you": "Someone who values keeping their own social ties.",
+      "negative": "An ultimatum-style question meant to make you feel guilty about your own free time.",
+      "positive": "Your partner feels a shortage of shared time, misses being together, and tries to draw attention to it, but does so through a harsh either-or."
+    },
+    {
+      "id": 68,
+      "section": "Romantic relationships",
+      "phrase": "Do my feelings really not matter to you? You never put my interests first!",
+      "who": "A partner unhappy that you don't read their emotions.",
+      "you": "Someone who tries to keep balance but can't constantly anticipate what the other wants.",
+      "negative": "They accuse you of indifference to put you on the defensive.",
+      "positive": "Your partner genuinely feels undervalued, fears their needs go unheard, and doesn't know how else to ask."
+    },
+    {
+      "id": 69,
+      "section": "Romantic relationships",
+      "phrase": "If you don't want to make it official, then you don't intend to keep this relationship going.",
+      "who": "A partner pushing for marriage or other formal steps.",
+      "you": "Someone who prefers to wait or doubts the need for formalities.",
+      "negative": "They use the symbol of 'making it official' as the measure of sincere feelings.",
+      "positive": "Your partner wants reassurance that you're serious and worries the lack of a registered relationship signals your doubts, but expresses it too categorically."
+    },
+    {
+      "id": 70,
+      "section": "Romantic relationships",
+      "phrase": "When I said we were over and you didn't argue, I realized you just don't care.",
+      "who": "A partner testing your reaction to the 'threat' of a breakup.",
+      "you": "Someone worn out by frequent scenes who no longer argues during the latest outburst.",
+      "negative": "Manipulation with a breakup to provoke an emotional reaction from you.",
+      "positive": "Your partner is scared by your calm and thinks you no longer want to fight for the relationship; they're seeking proof of your love, but do it through conflict."
+    },
+    {
+      "id": 71,
+      "section": "Social media",
+      "phrase": "Why don't you like my posts? I guess being supportive just isn't your strong suit.",
+      "who": "An online acquaintance or friend who places a lot of weight on likes.",
+      "you": "Someone who rarely reacts to posts or just doesn't see them.",
+      "negative": "They equate online activity with real-world support.",
+      "positive": "They're overly dependent on social media and genuinely think a like is a measure of a warm relationship; they worry you've forgotten about them."
+    },
+    {
+      "id": 72,
+      "section": "Social media",
+      "phrase": "It's obvious you're buying followers. You've got nothing to offer on your own.",
+      "who": "A hater or rival on social media.",
+      "you": "A user whose audience is growing fast.",
+      "negative": "They accuse you of dishonesty to undermine your credibility.",
+      "positive": "They notice the sharp growth and can't figure out where all the followers came from; they genuinely don't understand how you did it, but voice their doubt crudely."
+    },
+    {
+      "id": 73,
+      "section": "Social media",
+      "phrase": "You read my messages and don't reply. Ignoring someone is the best way to show you don't care.",
+      "who": "An acquaintance expecting an instant response.",
+      "you": "Someone who reads messages but can't always reply right away.",
+      "negative": "Pressure on guilt over a delayed reply.",
+      "positive": "They worry you don't want to talk to them and can't just check whether you're busy or how quickly you tend to reply."
+    },
+    {
+      "id": 74,
+      "section": "Social media",
+      "phrase": "Everyone shares stories, and you're hiding something. Afraid to show your real life?",
+      "who": "An active user constantly updating their social media.",
+      "you": "Someone who prefers less publicity.",
+      "negative": "They plant the idea that you're 'not like everyone else' and maybe being dishonest.",
+      "positive": "They genuinely don't understand why you don't put your life on display and think you've got nothing to show or you're embarrassed; they're trying to nudge you toward being more open."
+    },
+    {
+      "id": 75,
+      "section": "Social media",
+      "phrase": "You unfollowed me? So our relationship means nothing to you.",
+      "who": "A friend or acquaintance keeping tabs on your online status.",
+      "you": "Someone who trimmed their follows down to only the essentials.",
+      "negative": "Directly tying your follow to your personal relationship, a reproach for indifference.",
+      "positive": "They worry you've decided to stop talking and think an unfollow means the relationship is over, rather than just a cleanup of your feed."
+    },
+    {
+      "id": 76,
+      "section": "Social media",
+      "phrase": "Weird that you never tag me in your posts. Hiding the fact that we know each other?",
+      "who": "Someone who wants public acknowledgment of their importance in your life.",
+      "you": "A poster who doesn't like tagging people much.",
+      "negative": "Manipulation through publicity to force you to show attention.",
+      "positive": "They want everyone to know about your friendship or relationship — recognition and confirmation of the bond matters to them — but they voice it with suspicion."
+    },
+    {
+      "id": 77,
+      "section": "Social media",
+      "phrase": "Everything on your profile is so perfect. Maybe you should be more honest and show your real life?",
+      "who": "An acquaintance who thinks you're sugarcoating reality.",
+      "you": "Someone who mostly posts positive content.",
+      "negative": "An accusation of insincerity, a provocation to disclose personal details.",
+      "positive": "They want to see more 'real' content, think your page is unrealistic, and genuinely wish you'd show your authentic self, but say it point-blank."
+    },
+    {
+      "id": 78,
+      "section": "Social media",
+      "phrase": "This is the third time I've messaged you and you say nothing. You've definitely gotten full of yourself!",
+      "who": "An old buddy or follower you haven't replied to.",
+      "you": "Someone who can't always reply in time or didn't see the message.",
+      "negative": "They paint you as arrogant to provoke you into justifying yourself.",
+      "positive": "Your buddy worries you've forgotten about them and tries to 'get through' with a joking or barbed tone, unable to politely ask why there's no reply."
+    },
+    {
+      "id": 79,
+      "section": "Social media",
+      "phrase": "Why do you need that trendy new platform? It's just full of show-offs anyway.",
+      "who": "A conservative friend who sticks to the 'old' social networks.",
+      "you": "Someone trying out new online platforms.",
+      "negative": "Dismissing your choice to stop you from using anything new.",
+      "positive": "Your friend worries the new platform might be unsafe or a waste of time, and is trying, in their own way, to protect you — even if it sounds critical."
+    },
+    {
+      "id": 80,
+      "section": "Social media",
+      "phrase": "Everyone's praising my latest post, and you're silent. Is it so hard to hit like?",
+      "who": "An acquaintance focused on approval on social media.",
+      "you": "Someone who doesn't rush to like everything in sight.",
+      "negative": "They press on the need for 'mass support.'",
+      "positive": "Your acquaintance is puffed up about their post, but really they want your opinion specifically because they value it, and they take your silence hard."
+    },
+    {
+      "id": 81,
+      "section": "Creative work",
+      "phrase": "Come on, your 'music' is so primitive. Even schoolkids write more interesting stuff.",
+      "who": "A critic, or someone who considers themselves an expert.",
+      "you": "A musician just starting to share your tracks with the public.",
+      "negative": "Aggressive dismissal to hit your self-esteem.",
+      "positive": "The critic sees room to grow in your work but voices their opinion crudely, perhaps meaning to push you to improve."
+    },
+    {
+      "id": 82,
+      "section": "Creative work",
+      "phrase": "You write poetry? Oh, you must live in some rosy little world and not get how real life works.",
+      "who": "A buddy who considers poetry frivolous.",
+      "you": "A poet expressing themselves through their work.",
+      "negative": "A sarcastic delivery that dismisses your art form.",
+      "positive": "They see the contrast between the poetic approach and practical life matters and worry you'll get 'stuck' in fantasies, but can't say it tactfully."
+    },
+    {
+      "id": 83,
+      "section": "Creative work",
+      "phrase": "An artist? Cranking out portraits for money? That's not how real art is made.",
+      "who": "An 'art connoisseur' who looks down on commercial commissions.",
+      "you": "An artist who works on commission.",
+      "negative": "They split creativity into 'authentic' and 'lowly work for pay,' casting you as a sellout.",
+      "positive": "The 'connoisseur' is convinced art should be free of commerce and genuinely worries you're squandering your creative potential, but voices it arrogantly."
+    },
+    {
+      "id": 84,
+      "section": "Creative work",
+      "phrase": "You say you want recognition? But look at your work — it's too amateurish.",
+      "who": "A colleague who has already found some success.",
+      "you": "A beginner (writer, artist, musician).",
+      "negative": "They question your potential to make you feel insecure.",
+      "positive": "The colleague sees you still need to grow and is trying to convey that the road to recognition takes a lot of work; they worry you're underestimating how hard it is."
+    },
+    {
+      "id": 85,
+      "section": "Creative work",
+      "phrase": "If you keep your head in the clouds, your work will stay something nobody wants.",
+      "who": "A friend or relative worried about your 'impracticality.'",
+      "you": "A creative person not yet earning a steady income.",
+      "negative": "An attempt to bring you down to earth and undermine your belief in the value of your ideas.",
+      "positive": "Your loved ones want you to have a more solid footing in life and not 'drift off' into dreams, and they say it sternly because they're worried about your future."
+    },
+    {
+      "id": 86,
+      "section": "Creative work",
+      "phrase": "Posting your work online again? You think anyone's going to buy this?",
+      "who": "A skeptic doubting your success.",
+      "you": "An artist or handmade maker promoting yourself through social media.",
+      "negative": "Open mockery, a hint that it's a waste of time.",
+      "positive": "They worry you'll be crushed if the sales don't come and try to 'protect' you from false hope, but do it with a jab."
+    },
+    {
+      "id": 87,
+      "section": "Creative work",
+      "phrase": "You're always busy with your songs and poems. Have you tried finding a real job?",
+      "who": "A relative who thinks you can't make a living from art.",
+      "you": "Someone who has devoted themselves to art.",
+      "negative": "They question the value of a creative career, stirring up guilt.",
+      "positive": "Your relative worries about your financial stability and wants you to be able to support yourself, but voices that worry in a belittling way."
+    },
+    {
+      "id": 88,
+      "section": "Creative work",
+      "phrase": "If you ever do put out a good project, it'll be pure luck.",
+      "who": "Someone who doubts you have any consistent talent.",
+      "you": "A creator working on their style and craft.",
+      "negative": "They dismiss your potential successes as nothing more than luck.",
+      "positive": "They think creative success is unpredictable and fear you're relying too much on talent without accounting for luck, but say it hurtfully."
+    },
+    {
+      "id": 89,
+      "section": "Creative work",
+      "phrase": "Are you sure copywriting is creative? To me it's just rehashing other people's ideas.",
+      "who": "A perfectionist critic who won't recognize commercial writing as art.",
+      "you": "A copywriter trying to create creative content.",
+      "negative": "They diminish the value of your work by reducing it to mechanical rehashing.",
+      "positive": "They think copywriting has little artistic value and worry you're spending your talent on 'ads' instead of something bigger, but voice it as a jab."
+    },
+    {
+      "id": 90,
+      "section": "Creative work",
+      "phrase": "You want to make your blog into something artistic? Give it up — people are more into cats and drama.",
+      "who": "A cynical acquaintance convinced mass taste favors the lowbrow.",
+      "you": "A blogger trying to promote aesthetic or intellectual content.",
+      "negative": "They make you doubt whether quality creative work is even in demand.",
+      "positive": "Your acquaintance worries you won't find an audience and will be disappointed, since in their view the 'mass viewer' wants a completely different format."
+    },
+    {
+      "id": 91,
+      "section": "Public speaking",
+      "phrase": "You're so all over the place that no one's going to understand what your talk is even about.",
+      "who": "A colleague or rival before your talk.",
+      "you": "Someone preparing to speak publicly at a conference.",
+      "negative": "An attempt to rattle you by making you afraid of being incomprehensible.",
+      "positive": "The colleague really does notice you're nervous and speaking uncertainly, but doesn't know how to give constructive feedback and scares you instead of supporting you."
+    },
+    {
+      "id": 92,
+      "section": "Public speaking",
+      "phrase": "All the speakers are pros, and it's your first time on stage. Aren't you embarrassed to swim with the sharks?",
+      "who": "A skeptic or co-organizer of the event.",
+      "you": "A newcomer speaking to a big audience for the first time.",
+      "negative": "They lower your self-esteem by scaring you with the other speakers' high caliber.",
+      "positive": "They worry you'll end up in a tough spot and, in their own way, are trying to warn you the audience may be demanding."
+    },
+    {
+      "id": 93,
+      "section": "Public speaking",
+      "phrase": "You dropped a bunch of fancy words but zero facts. That's just empty talk.",
+      "who": "An audience member who wants to look like they're 'exposing' the speaker.",
+      "you": "A presenter using professional terminology.",
+      "negative": "They accuse you of being shallow to undermine your authority.",
+      "positive": "The listener genuinely craves specifics and evidence and wants to understand your points better, but expresses it in a harsh, confrontational way."
+    },
+    {
+      "id": 94,
+      "section": "Public speaking",
+      "phrase": "Why are you talking so quietly? It's obvious you're not used to a big audience.",
+      "who": "A colleague noting your nerves on stage.",
+      "you": "A speaker trying to manage their jitters.",
+      "negative": "They press on your fear of public speaking, ramping up your nervousness.",
+      "positive": "The colleague notices you're afraid and maybe wants to encourage you, but it comes out backwards — sounding like criticism instead of help."
+    },
+    {
+      "id": 95,
+      "section": "Public speaking",
+      "phrase": "Audiences only care about big personalities. And you just can't command attention.",
+      "who": "An experienced speaker or mentor with a harsh delivery.",
+      "you": "A newcomer who hasn't found their style yet.",
+      "negative": "They dismiss your abilities, provoking despair or a drive to prove them wrong.",
+      "positive": "The mentor genuinely thinks you need to bring out your charisma but can't gently hint that you should work on your delivery, and phrases it too harshly."
+    },
+    {
+      "id": 96,
+      "section": "Public speaking",
+      "phrase": "The topic you picked is out of date. Why waste people's time?",
+      "who": "A competing speaker or a colleague scheduled to speak after you.",
+      "you": "Someone with an interesting but 'unfashionable' topic.",
+      "negative": "An attempt to devalue your topic by convincing you it has no future.",
+      "positive": "They genuinely think your topic is outdated and assume the audience won't appreciate it, but say it without any diplomacy."
+    },
+    {
+      "id": 97,
+      "section": "Public speaking",
+      "phrase": "I can see you're nervous. Maybe you shouldn't go on stage at all — you'll just embarrass yourself.",
+      "who": "An ill-wisher or rival before your talk.",
+      "you": "A speaker feeling natural stage fright.",
+      "negative": "A direct attack on your nerves to make you even more scared.",
+      "positive": "They see how stressed you are and genuinely think it's better to back out than risk a flop, but express it crudely and in a demotivating way."
+    },
+    {
+      "id": 98,
+      "section": "Public speaking",
+      "phrase": "Taking a page from the great orators? I doubt you'll manage to repeat their success.",
+      "who": "A colleague who thinks your ambitions are inflated.",
+      "you": "A student studying the techniques of famous speakers.",
+      "negative": "They try to bring your aspirations down to earth, instilling an inferiority complex.",
+      "positive": "The colleague worries you're setting the bar too high and might be disappointed; they just don't know how to gently warn you the road will be hard."
+    },
+    {
+      "id": 99,
+      "section": "Public speaking",
+      "phrase": "You're way too emotional — it's unprofessional and it distracts from the point.",
+      "who": "A stern listener who prefers dry facts.",
+      "you": "A presenter who speaks with enthusiasm and vivid examples.",
+      "negative": "They criticize your speaking style to chip away at your confidence.",
+      "positive": "The listener genuinely believes an emotional delivery gets in the way of understanding, but expresses it far too categorically."
+    },
+    {
+      "id": 100,
+      "section": "Public speaking",
+      "phrase": "The audience is coming for the other speakers anyway — you're just filler on the program.",
+      "who": "An organizer or colleague who clearly doesn't believe your talk is worth much.",
+      "you": "A speaker slotted into the general lineup.",
+      "negative": "They cast you as 'second-tier,' devaluing your contribution.",
+      "positive": "The organizer worries few people may show up for your talk (or that the topic isn't that popular) and wants to cushion you against disappointment, but phrases it in a way that sounds dismissive."
+    }
+  ],
+  "standalone": [
+    {
+      "id": 1,
+      "text": "You never finish anything you start!"
+    },
+    {
+      "id": 2,
+      "text": "So, dropped the ball again, huh?"
+    },
+    {
+      "id": 3,
+      "text": "Can't you do a single thing without someone holding your hand?"
+    },
+    {
+      "id": 4,
+      "text": "Same as always, the only person you listen to is yourself!"
+    },
+    {
+      "id": 5,
+      "text": "I see you just love making everything about you."
+    },
+    {
+      "id": 6,
+      "text": "Your problems are yours alone, so why dump them on everyone?"
+    },
+    {
+      "id": 7,
+      "text": "Who's going to believe you with a reputation like yours?"
+    },
+    {
+      "id": 8,
+      "text": "You know perfectly well you're never going to get anywhere."
+    },
+    {
+      "id": 9,
+      "text": "It's honestly strange you're even here."
+    },
+    {
+      "id": 10,
+      "text": "You think everyone's just supposed to put up with your nonsense?"
+    },
+    {
+      "id": 11,
+      "text": "Is all that 'confidence' just you hiding your insecurities?"
+    },
+    {
+      "id": 12,
+      "text": "Nobody needs your ideas, just accept it already."
+    },
+    {
+      "id": 13,
+      "text": "And this is all you've got to show for all these years?"
+    },
+    {
+      "id": 14,
+      "text": "Before you open your mouth, try actually being successful for once."
+    },
+    {
+      "id": 15,
+      "text": "You love making excuses so much it's basically a hobby now."
+    },
+    {
+      "id": 16,
+      "text": "I doubt you even grasp the consequences."
+    },
+    {
+      "id": 17,
+      "text": "Nothing you say carries any weight at all."
+    },
+    {
+      "id": 18,
+      "text": "You're always playing the innocent victim."
+    },
+    {
+      "id": 19,
+      "text": "Do you have any idea how ridiculous you look from the outside?"
+    },
+    {
+      "id": 20,
+      "text": "You just enjoy complaining about your life."
+    },
+    {
+      "id": 21,
+      "text": "At this rate you'll never see a single result."
+    },
+    {
+      "id": 22,
+      "text": "Oh, stop inventing problems that don't even exist."
+    },
+    {
+      "id": 23,
+      "text": "Everything out of your mouth is just more empty noise."
+    },
+    {
+      "id": 24,
+      "text": "Are you even capable of feeling anything at all?"
+    },
+    {
+      "id": 25,
+      "text": "Nobody takes your little attempts seriously."
+    },
+    {
+      "id": 26,
+      "text": "I genuinely have no idea what you're even doing here."
+    },
+    {
+      "id": 27,
+      "text": "Bailing again, like always?"
+    },
+    {
+      "id": 28,
+      "text": "You know what, I don't even want to hear you out."
+    },
+    {
+      "id": 29,
+      "text": "Be honest, aren't you ashamed of yourself?"
+    },
+    {
+      "id": 30,
+      "text": "You just act brave, but deep down you're scared of everything."
+    },
+    {
+      "id": 31,
+      "text": "Your opinion is completely uninteresting, sorry."
+    },
+    {
+      "id": 32,
+      "text": "You're always sticking your nose where it doesn't belong."
+    },
+    {
+      "id": 33,
+      "text": "So, waiting around for someone to hand you something again?"
+    },
+    {
+      "id": 34,
+      "text": "You don't actually want anything for yourself, do you?"
+    },
+    {
+      "id": 35,
+      "text": "Everybody knows the only person you love is yourself."
+    },
+    {
+      "id": 36,
+      "text": "You really want to embarrass yourself in front of everyone?"
+    },
+    {
+      "id": 37,
+      "text": "Sounds like even you don't believe what you're saying."
+    },
+    {
+      "id": 38,
+      "text": "And what have you achieved that gives you the right to lecture us?"
+    },
+    {
+      "id": 39,
+      "text": "Going to whine about it again, like always?"
+    },
+    {
+      "id": 40,
+      "text": "Nobody asked for your opinion anyway."
+    },
+    {
+      "id": 41,
+      "text": "What gives you the right to even talk about this?"
+    },
+    {
+      "id": 42,
+      "text": "You'd be better off doing something useful instead of this garbage."
+    },
+    {
+      "id": 43,
+      "text": "All you know how to do is blame everyone around you."
+    },
+    {
+      "id": 44,
+      "text": "Quit acting like the smart one, it's laughable."
+    },
+    {
+      "id": 45,
+      "text": "Why can't you take responsibility like a grown-up?"
+    },
+    {
+      "id": 46,
+      "text": "Looking for excuses again? How boring."
+    },
+    {
+      "id": 47,
+      "text": "When it suits you, you vanish, and then you come back demanding attention."
+    },
+    {
+      "id": 48,
+      "text": "You're about as useful as nothing at all."
+    },
+    {
+      "id": 49,
+      "text": "I really think you screw everything up on purpose."
+    },
+    {
+      "id": 50,
+      "text": "This is the best you can do, isn't it?"
+    },
+    {
+      "id": 51,
+      "text": "You talk like you're entitled to something."
+    },
+    {
+      "id": 52,
+      "text": "With an attitude like that you should've quit this ages ago."
+    },
+    {
+      "id": 53,
+      "text": "Seems like you don't even know what you want yourself."
+    },
+    {
+      "id": 54,
+      "text": "I don't know who could possibly believe in you."
+    },
+    {
+      "id": 55,
+      "text": "You just hide your incompetence behind big words."
+    },
+    {
+      "id": 56,
+      "text": "Why do you keep butting in when nobody asked you?"
+    },
+    {
+      "id": 57,
+      "text": "You're fine playing second fiddle, aren't you?"
+    },
+    {
+      "id": 58,
+      "text": "Everything gets sorted out just fine without you."
+    },
+    {
+      "id": 59,
+      "text": "With skills like yours, you're better off keeping quiet."
+    },
+    {
+      "id": 60,
+      "text": "So, finally admitting how helpless you are?"
+    },
+    {
+      "id": 61,
+      "text": "Is this really all you're capable of?"
+    },
+    {
+      "id": 62,
+      "text": "You just love making excuses and feeling sorry for yourself."
+    },
+    {
+      "id": 63,
+      "text": "Nobody's going to sit through your pathetic little explanation."
+    },
+    {
+      "id": 64,
+      "text": "Aren't you tired of making a fool of yourself?"
+    },
+    {
+      "id": 65,
+      "text": "People have enough problems without you piling on."
+    },
+    {
+      "id": 66,
+      "text": "You don't even try to see anyone else's point of view."
+    },
+    {
+      "id": 67,
+      "text": "You break everything you lay a hand on, every single time."
+    },
+    {
+      "id": 68,
+      "text": "If you ask me, you just don't know how to listen."
+    },
+    {
+      "id": 69,
+      "text": "Trying to be the center of attention again, are you?"
+    },
+    {
+      "id": 70,
+      "text": "Your words are just hot air, as usual."
+    },
+    {
+      "id": 71,
+      "text": "It's impossible to expect anything serious from you."
+    },
+    {
+      "id": 72,
+      "text": "Quit pretending you're some kind of expert."
+    },
+    {
+      "id": 73,
+      "text": "All you can do is talk and never actually do anything."
+    },
+    {
+      "id": 74,
+      "text": "I seriously doubt you have an ounce of talent."
+    },
+    {
+      "id": 75,
+      "text": "With ambitions like yours you won't get far."
+    },
+    {
+      "id": 76,
+      "text": "Why do you try to look successful when you clearly aren't?"
+    },
+    {
+      "id": 77,
+      "text": "You don't even have the patience to see anything through to the end."
+    },
+    {
+      "id": 78,
+      "text": "Everyone can see you're just plain lazy."
+    },
+    {
+      "id": 79,
+      "text": "You've worn everyone out with your problems already."
+    },
+    {
+      "id": 80,
+      "text": "Seriously, aren't you tired of embarrassing yourself?"
+    },
+    {
+      "id": 81,
+      "text": "You never once think about anyone but your precious self."
+    },
+    {
+      "id": 82,
+      "text": "You're impossible to listen to, it's nothing but negativity."
+    },
+    {
+      "id": 83,
+      "text": "What, fishing for attention again? How sweet."
+    },
+    {
+      "id": 84,
+      "text": "How many times do I have to tell you your opinion doesn't matter?"
+    },
+    {
+      "id": 85,
+      "text": "Looks like you've completely lost touch with reality."
+    },
+    {
+      "id": 86,
+      "text": "You're forever getting in the way of people who actually work."
+    },
+    {
+      "id": 87,
+      "text": "What exactly do you think all this whining accomplishes?"
+    },
+    {
+      "id": 88,
+      "text": "Better keep quiet before you embarrass yourself any further."
+    },
+    {
+      "id": 89,
+      "text": "It's the same story from you every single time."
+    },
+    {
+      "id": 90,
+      "text": "You're just pretending you want things to change."
+    },
+    {
+      "id": 91,
+      "text": "Why can everyone else manage it but you?"
+    },
+    {
+      "id": 92,
+      "text": "You complain like you've got the biggest problems in the whole world."
+    },
+    {
+      "id": 93,
+      "text": "Still not enough for you? Maybe give it a rest?"
+    },
+    {
+      "id": 94,
+      "text": "There isn't a shred of gratitude in you."
+    },
+    {
+      "id": 95,
+      "text": "You think you're smarter than everyone else, do you?"
+    },
+    {
+      "id": 96,
+      "text": "Take a good look at yourself, is there anything to be proud of?"
+    },
+    {
+      "id": 97,
+      "text": "Bet nothing decent comes of it again?"
+    },
+    {
+      "id": 98,
+      "text": "Other people have proper kids, and then there's you."
+    },
+    {
+      "id": 99,
+      "text": "Maybe sort out your own life first?"
+    },
+    {
+      "id": 100,
+      "text": "Why are you always so desperate to prove something to somebody?"
+    },
+    {
+      "id": 101,
+      "text": "You'll never turn out like everyone else."
+    },
+    {
+      "id": 102,
+      "text": "You're running in circles and calling it moving forward."
+    },
+    {
+      "id": 103,
+      "text": "As always, you look for someone to blame instead of looking at yourself."
+    },
+    {
+      "id": 104,
+      "text": "Sort yourself out first, then you can hand out advice."
+    },
+    {
+      "id": 105,
+      "text": "Your sense of responsibility ends the moment actual work begins."
+    },
+    {
+      "id": 106,
+      "text": "It's not going to lead to anything anyway."
+    },
+    {
+      "id": 107,
+      "text": "See, I was right, you messed it up again."
+    },
+    {
+      "id": 108,
+      "text": "You try to look grown-up, but you're a child underneath it all."
+    },
+    {
+      "id": 109,
+      "text": "Every argument you make just sounds like an excuse."
+    },
+    {
+      "id": 110,
+      "text": "You always find a million reasons to avoid actually doing anything."
+    },
+    {
+      "id": 111,
+      "text": "How long are you going to stay this disorganized?"
+    },
+    {
+      "id": 112,
+      "text": "Are you sure you should even be starting anything at all?"
+    },
+    {
+      "id": 113,
+      "text": "Who told you you're in any position to teach me anything?"
+    },
+    {
+      "id": 114,
+      "text": "You honestly think anyone believes your promises?"
+    },
+    {
+      "id": 115,
+      "text": "I really don't get what you're so proud of."
+    },
+    {
+      "id": 116,
+      "text": "You always take the easy way out, don't you?"
+    },
+    {
+      "id": 117,
+      "text": "I feel sorry for anyone who actually counts on you."
+    },
+    {
+      "id": 118,
+      "text": "You can't even see the hole you're digging for yourself."
+    },
+    {
+      "id": 119,
+      "text": "You've got nothing, and you already think you're some big shot?"
+    },
+    {
+      "id": 120,
+      "text": "Talking in riddles again, just so you don't have to do anything."
+    },
+    {
+      "id": 121,
+      "text": "You seriously think you can compete with actual professionals?"
+    },
+    {
+      "id": 122,
+      "text": "Anyone else in your shoes would've given up long ago."
+    },
+    {
+      "id": 123,
+      "text": "Watch out you don't end up abandoning it all halfway through, as usual."
+    },
+    {
+      "id": 124,
+      "text": "Your so-called achievements don't impress anyone."
+    },
+    {
+      "id": 125,
+      "text": "All you do is stir up drama instead of solving anything."
+    },
+    {
+      "id": 126,
+      "text": "It's like you're living in some made-up world."
+    },
+    {
+      "id": 127,
+      "text": "It feels like you respect neither yourself nor anyone else."
+    },
+    {
+      "id": 128,
+      "text": "So without somebody propping you up, you're nothing, right?"
+    },
+    {
+      "id": 129,
+      "text": "Nobody expected anything more from you anyway."
+    },
+    {
+      "id": 130,
+      "text": "You just used me, admit it."
+    },
+    {
+      "id": 131,
+      "text": "Go on then, tell me again how hard you 'tried'!"
+    },
+    {
+      "id": 132,
+      "text": "People with views like yours usually don't get far."
+    },
+    {
+      "id": 133,
+      "text": "Aren't you tired of being an embarrassment to your family?"
+    },
+    {
+      "id": 134,
+      "text": "You thought someone would come to your rescue? How naive."
+    },
+    {
+      "id": 135,
+      "text": "There's only one way out: admit you couldn't handle it."
+    },
+    {
+      "id": 136,
+      "text": "You'll never become the person you're pretending to be."
+    },
+    {
+      "id": 137,
+      "text": "Come on, you already know it's pointless."
+    },
+    {
+      "id": 138,
+      "text": "You probably made this whole story up just to get attention."
+    },
+    {
+      "id": 139,
+      "text": "I wish someone would explain why you even bother with this."
+    },
+    {
+      "id": 140,
+      "text": "Everything you do just makes the situation more of a mess."
+    },
+    {
+      "id": 141,
+      "text": "You don't even notice how ridiculous you look."
+    },
+    {
+      "id": 142,
+      "text": "Learn from normal people instead of doing your own thing."
+    },
+    {
+      "id": 143,
+      "text": "Oh sure, the whole world just owes you something."
+    },
+    {
+      "id": 144,
+      "text": "You don't know how to climb out of the hole, so you scream at everyone."
+    },
+    {
+      "id": 145,
+      "text": "From what I can tell, you just can't handle the truth."
+    },
+    {
+      "id": 146,
+      "text": "Everyone knows what you really are anyway."
+    },
+    {
+      "id": 147,
+      "text": "This isn't your first flop, so maybe give it up?"
+    },
+    {
+      "id": 148,
+      "text": "Embarrassing yourself is really your specialty, isn't it?"
+    },
+    {
+      "id": 149,
+      "text": "If you actually wanted to change something, you'd have done it long ago."
+    },
+    {
+      "id": 150,
+      "text": "All you can do is copy other people's ideas."
+    },
+    {
+      "id": 151,
+      "text": "And why are you wading into this mess again?"
+    },
+    {
+      "id": 152,
+      "text": "You don't even know yourself what you're trying to achieve."
+    },
+    {
+      "id": 153,
+      "text": "I seriously doubt you've got a single drop of talent."
+    },
+    {
+      "id": 154,
+      "text": "You lost touch with reality a long time ago."
+    },
+    {
+      "id": 155,
+      "text": "Even watching you flail around is laughable."
+    },
+    {
+      "id": 156,
+      "text": "Aren't you tired of stepping on the same rake over and over?"
+    },
+    {
+      "id": 157,
+      "text": "Deep down you want pity, not a solution."
+    },
+    {
+      "id": 158,
+      "text": "It's like you make everyone's life harder on purpose."
+    },
+    {
+      "id": 159,
+      "text": "No matter how much time passes, you'll never change."
+    },
+    {
+      "id": 160,
+      "text": "Where do you get the nerve to say something like that?"
+    },
+    {
+      "id": 161,
+      "text": "Wouldn't it just be easier if you left?"
+    },
+    {
+      "id": 162,
+      "text": "You just throw off everyone's plans, things would be simpler without you."
+    },
+    {
+      "id": 163,
+      "text": "How about trying not to embarrass yourself in public for once?"
+    },
+    {
+      "id": 164,
+      "text": "It feels like you don't have a single thought of your own."
+    },
+    {
+      "id": 165,
+      "text": "Do you need to be led around by the hand like a child?"
+    },
+    {
+      "id": 166,
+      "text": "You never put in enough effort, ever."
+    },
+    {
+      "id": 167,
+      "text": "And what if you're just too scared to actually do anything?"
+    },
+    {
+      "id": 168,
+      "text": "Isn't it obvious you're completely out of your depth here?"
+    },
+    {
+      "id": 169,
+      "text": "I guess you actually enjoy being laughed at."
+    },
+    {
+      "id": 170,
+      "text": "Without someone helping you, you won't take a single step."
+    },
+    {
+      "id": 171,
+      "text": "You're forever grabbing at everything and finishing nothing."
+    },
+    {
+      "id": 172,
+      "text": "Your word isn't worth anything."
+    },
+    {
+      "id": 173,
+      "text": "Everything you do is just a desperate attempt to stand out."
+    },
+    {
+      "id": 174,
+      "text": "I guess you actually like it when everything falls apart?"
+    },
+    {
+      "id": 175,
+      "text": "You're trying to manipulate people, but you just look ridiculous."
+    },
+    {
+      "id": 176,
+      "text": "Seems like you can't even think logically at the most basic level."
+    },
+    {
+      "id": 177,
+      "text": "Your 'help' only makes everything more complicated."
+    },
+    {
+      "id": 178,
+      "text": "You're too weak to ever see this through to the end."
+    },
+    {
+      "id": 179,
+      "text": "All you ever do is promise and never deliver."
+    },
+    {
+      "id": 180,
+      "text": "As always, the only person you're busy with is yourself."
+    },
+    {
+      "id": 181,
+      "text": "You'll probably never manage to step out of your comfort zone."
+    },
+    {
+      "id": 182,
+      "text": "It's honestly surprising you haven't given up on this yet."
+    },
+    {
+      "id": 183,
+      "text": "Look around: nobody wants you here with attitude like that."
+    },
+    {
+      "id": 184,
+      "text": "You're always looking for an excuse to run away from reality."
+    },
+    {
+      "id": 185,
+      "text": "I guess you're just too lazy to put in any real effort."
+    },
+    {
+      "id": 186,
+      "text": "People will always doubt you, and for good reason."
+    },
+    {
+      "id": 187,
+      "text": "You take every piece of advice as an attack because you're afraid of the truth."
+    },
+    {
+      "id": 188,
+      "text": "You really think anyone still falls for your fairy tales?"
+    },
+    {
+      "id": 189,
+      "text": "Think you could snap out of your little fantasies?"
+    },
+    {
+      "id": 190,
+      "text": "It's too late to change anything, you're out of time."
+    },
+    {
+      "id": 191,
+      "text": "You set goals you don't even believe you'll reach."
+    },
+    {
+      "id": 192,
+      "text": "Nobody owes you an explanation for the most obvious things."
+    },
+    {
+      "id": 193,
+      "text": "You live in your own little world and never look around you."
+    },
+    {
+      "id": 194,
+      "text": "You always put yourself at the center of the universe."
+    },
+    {
+      "id": 195,
+      "text": "There's no point trying to prove anything to you."
+    },
+    {
+      "id": 196,
+      "text": "Don't even bother, the outcome's already obvious."
+    },
+    {
+      "id": 197,
+      "text": "You invent problems just to get people to pay attention to you."
+    },
+    {
+      "id": 198,
+      "text": "Everyone else pulls it off, and you flop every single time."
+    },
+    {
+      "id": 199,
+      "text": "Maybe drop the whole victim act already?"
+    },
+    {
+      "id": 200,
+      "text": "Clearly you'll never be satisfied with yourself or anyone else."
+    }
+  ]
+}

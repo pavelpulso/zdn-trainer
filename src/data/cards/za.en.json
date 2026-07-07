@@ -1,0 +1,29 @@
+{
+  "cards": [
+    { "file": "01.png", "items": ["What solution do you see?", "What does that mean to you?", "What matters most to you here?"] },
+    { "file": "02.png", "items": ["Why is this important to you?", "How can I be useful to you?", "Let's join forces on this."] },
+    { "file": "03.png", "items": ["What can we do in this situation?", "What do you propose about this?", "How did you arrive at these conclusions?"] },
+    { "file": "04.png", "items": ["What positives do you see in this?", "What will our next step be?", "What are you trying to say by this?"] },
+    { "file": "05.png", "items": ["How do you see us working together going forward?", "What's the best solution you see here?", "What would you propose, then?"] },
+    { "file": "06.png", "items": ["Let's discuss this question now.", "Why do you think that?", "Let's discuss this question in more detail."] },
+    { "file": "07.png", "items": ["How did you reach this decision?", "What improvements are you ready to propose right now?", "What nuances do you see in this?"] },
+    { "file": "08.png", "items": ["What's your version of how things could unfold?", "What can you propose?", "Let's discuss what's worrying you."] },
+    { "file": "09.png", "items": ["What should we end up with in the end?", "What would be the best outcome for the next stage?", "What action can we take right now?"] },
+    { "file": "10.png", "items": ["What do you want to arrive at by solving this task?", "What could get in the way of the result?", "What can we do now to resolve this question?"] },
+    { "file": "11.png", "items": ["What ideas do you have?", "Do you already have any ideas about this?", "What action plan do you envision?"] },
+    { "file": "12.png", "items": ["What examples of solving situations like this do you already know of?", "What do you consider most important in how we work together right now?", "What risks do you see in this?"] },
+    { "file": "13.png", "items": ["What genuinely interests you?", "What do you want to achieve by this?", "What is your goal?"] },
+    { "file": "14.png", "items": ["What specifically concerns you in this situation?", "How can we improve our productivity?", "How do you see us possibly collaborating going forward?"] },
+    { "file": "15.png", "items": ["How can we use this situation to our advantage?", "What results could this lead to?", "What question is most pressing for you?"] },
+    { "file": "16.png", "items": ["What conclusion can we draw from the situation we're in?", "How can we turn these weaknesses into strengths?", "What does your experience tell you?"] },
+    { "file": "17.png", "items": ["What would you not want to see in the way we work?", "What matters most to you in the work?", "Which of these can we talk through right now?"] },
+    { "file": "18.png", "items": ["What is absolutely unacceptable to you?", "What can we gain by solving this task?", "Which of our questions do you think this situation answers?"] },
+    { "file": "19.png", "items": ["Please state your expectations.", "What tools might we need?", "What sequence of actions do we need to carry out?"] },
+    { "file": "20.png", "items": ["What goal shall we set for ourselves?", "What would you do first in this situation?", "How would we look back on this situation a year from now?"] },
+    { "file": "21.png", "items": ["What could get in the way of building our collaboration?", "What must we keep in mind so we don't repeat mistakes?", "Can this task make a contribution to the future?"] },
+    { "file": "22.png", "items": ["How can we look at the situation from a different angle?", "What do you think about this?", "How can we combine our efforts?"] },
+    { "file": "23.png", "items": ["What matters most to you in solving this task?", "What values inspire you?", "Have there been cases in your experience of solving similar tasks?"] },
+    { "file": "24.png", "items": ["Could you justify your conclusions?", "What are you striving for?", "What valuable lessons can we take from this situation?"] },
+    { "file": "25.png", "items": ["What drives your actions?", "How do you make decisions?", "What approaches would you prefer to use to solve this task?"] }
+  ]
+}
