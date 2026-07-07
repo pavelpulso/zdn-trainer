@@ -53,6 +53,21 @@ function saveEntry() {
   saved.value = true
 }
 
+const normEnd = (s) => {
+  s = (s || '').trim()
+  return !s || /[.!?…»]$/.test(s) ? s : s + '.'
+}
+const draftParts = computed(() =>
+  [
+    { text: deck.amortization?.text, cat: 'am' },
+    { text: deck.principle?.text, cat: 'pr' },
+    { text: deck.question?.text, cat: 'za' },
+  ].filter((p) => p.text),
+)
+function assembleDraft() {
+  form.response = draftParts.value.map((p) => normEnd(p.text)).join(' ')
+}
+
 const liveFormula = computed(() => {
   const tpl = t('s2.tpl').replace('{hook}', deck.hook || '…')
   const vals = { A: form.A, B: form.B, C: form.C, X: form.X, Y: form.Y, Z: form.Z }
@@ -171,6 +186,15 @@ const sectionVal = computed({
             <TechniqueCard :key="`za${deck.nonce.za}`" cat="za" :items="[deck.question]"
               :file="deck.question.file" compact refreshable @refresh="rerollOne('za')" />
           </div>
+          <div class="assembled">
+            <div class="asm-head">
+              <span class="u-eyebrow">{{ t('s3.assembled') }}</span>
+              <button class="asm-btn" @click="assembleDraft">↳ {{ t('s3.collect') }}</button>
+            </div>
+            <p class="asm-preview">
+              <span v-for="(p, i) in draftParts" :key="i" :class="p.cat">{{ normEnd(p.text) }}</span>
+            </p>
+          </div>
           <label class="field">
             <span>{{ t('s3.yourAnswer') }}</span>
             <textarea v-model="form.response" rows="3" :placeholder="t('s3.placeholder')"></textarea>
@@ -280,7 +304,17 @@ const sectionVal = computed({
 .m-name { font-family: var(--ff-display); font-weight: 600; font-size: 1rem; color: var(--edge); }
 .m-desc { color: var(--fg-dim); font-size: 0.95rem; }
 
-.cards-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-bottom: 1.3rem; }
+.cards-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-bottom: 1.3rem; align-items: start; }
+
+.assembled { margin-bottom: 1.1rem; padding: 1rem 1.1rem; border-radius: 12px; background: var(--ink-800); border: 1px dashed var(--line); }
+.asm-head { display: flex; justify-content: space-between; align-items: center; gap: 0.6rem; margin-bottom: 0.6rem; }
+.asm-btn { padding: 0.42rem 0.85rem; border-radius: 8px; background: var(--rs); color: #06120f; border: 0; font-weight: 600; font-size: 0.82rem; transition: filter 0.15s; }
+.asm-btn:hover { filter: brightness(1.08); }
+.asm-preview { margin: 0; line-height: 1.6; color: var(--fg-dim); }
+.asm-preview span { margin-right: 0.35rem; }
+.asm-preview .am { color: var(--am); }
+.asm-preview .pr { color: var(--pr); }
+.asm-preview .za { color: var(--za); }
 
 .formula-grid { display: grid; gap: 0.9rem; }
 .frow { display: grid; grid-template-columns: auto repeat(3, 1fr); gap: 0.7rem; align-items: center; padding: 1rem 1.1rem; border-radius: 12px; background: var(--ink-800); border: 1px solid var(--line-soft); }
@@ -345,9 +379,15 @@ textarea:focus-visible { border-color: var(--rs); outline: none; }
 
 @media (max-width: 860px) {
   .console { grid-template-columns: 1fr; }
-  .rail { position: static; }
-  .spine { grid-auto-flow: column; grid-auto-columns: 1fr; overflow-x: auto; }
-  .spine-item { flex-direction: column; gap: 0.35rem; text-align: center; padding: 0.5rem 0.3rem; }
+  .rail { position: static; gap: 0.9rem; padding: 1.1rem; }
+  .pool { display: none; }
+  .spine {
+    grid-auto-flow: column; grid-auto-columns: minmax(66px, 1fr); overflow-x: auto;
+    padding-bottom: 0.2rem; scroll-snap-type: x proximity;
+    -webkit-mask-image: linear-gradient(90deg, #000 88%, transparent);
+    mask-image: linear-gradient(90deg, #000 88%, transparent);
+  }
+  .spine-item { flex-direction: column; gap: 0.35rem; text-align: center; padding: 0.5rem 0.3rem; scroll-snap-align: start; }
   .spine-item .lbl { font-size: 0.72rem; }
   .frow { grid-template-columns: 1fr 1fr; }
   .frow-tag { grid-column: 1 / -1; }

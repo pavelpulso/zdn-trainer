@@ -1,7 +1,7 @@
 export const messages = {
   ru: {
     brand: { verbs: ['Защитись', 'Договорись', 'Насладись'] },
-    tabs: { trainer: 'Тренажёр', journal: 'Дневник' },
+    tabs: { trainer: 'Тренажёр', journal: 'Дневник', about: 'О методе' },
     lang: { label: 'Язык', ru: 'RU', en: 'EN' },
 
     mode: { hooks: 'Крючки', scenarios: 'Сценарии', label: 'Режим', all: 'Все сферы' },
@@ -65,6 +65,8 @@ export const messages = {
       yourAnswer: 'Твой ответ на крючок',
       placeholder: 'Амортизирую → веду стратегию → возвращаю вопросом…',
       spoken: 'Проговорено вслух',
+      collect: 'Собрать из карт',
+      assembled: 'Собрано из карт',
     },
     s4: {
       lead: 'Прими принцип как рамку. Ответь на четыре вопроса — коротко, своими словами.',
@@ -103,14 +105,31 @@ export const messages = {
     },
 
     footer: {
-      line1: 'Тренажёр по методу Альберта Сафина «Защитись! Договорись! Насладись!». Материалы карт — проект qcic.ru. Физическую версию игры можно купить на Ozon.',
-      line2: 'Неофициальный учебный тренажёр для самостоятельных тренировок.',
+      intro: 'Тренажёр по методу Альберта Сафина «Защитись! Договорись! Насладись!».',
+      qcic: 'Материалы карт — qcic.ru',
+      ozon: 'Купить игру на Ozon',
+      note: 'Неофициальный учебный тренажёр для самостоятельных тренировок.',
+    },
+
+    about: {
+      title: 'О методе',
+      lead: 'Тренажёр воспроизводит одну часть системы Альберта Сафина — карточную игру. Но у метода есть рамка пошире. Коротко, чтобы понимать, куда встроен навык.',
+      items: [
+        { name: 'Иммунитет: внутреннее + внешнее', desc: 'Устойчивость к манипуляциям = ваше отношение к себе, людям и миру (внутри) + речь и поведение (снаружи). Опоры: ценности, границы, самооценка вне чужого одобрения.' },
+        { name: 'Внутренняя защита — одна формула', desc: '«Я слышу манипуляцию, которой меня пытаются заставить думать A, чувствовать B, делать C. Вместо этого я выбираю думать X, чувствовать Y, делать Z». Это ядро — применяется к любому крючку.' },
+        { name: 'Диагностика: ГОЛОД → КРЮЧОК → КЛЁВ', desc: 'Манипулятор бьёт в вашу потребность («голод») «крючком»; манипуляция срабатывает только при «клёве» — вашей реакции. Не клюёте — крючок пуст.' },
+        { name: 'Речевая самооборона — 3 шага', desc: 'Амортизация (потушить огонь) → ответ по существу / речевая стратегия → захват открытым вопросом. Внешний ответ после внутренней защиты.' },
+        { name: '«НО» → «БЫТЬ»', desc: 'Проигрышный рефлекс — Напасть или Оправдаться. Устойчивое состояние — БЫТЬ: присутствовать, не вовлекаться в навязанную роль.' },
+        { name: 'Стратег vs Жертва', desc: 'Зацепить можно лишь того, кто в позиции следствия. Стратег держит позицию причины: выбирает реакцию, а не отдаёт её манипулятору.' },
+        { name: 'QCIC', desc: 'Question — открытые вопросы к цели · Communication — эффективное общение · Inspiration — вдохновение и творчество по ценностям · Consistency — последовательность.' },
+      ],
+      source: 'По материалам qcic.ru (проект Альберта Сафина). Неофициальное изложение — за первоисточником обращайтесь к автору.',
     },
   },
 
   en: {
     brand: { verbs: ['Defend', 'Negotiate', 'Enjoy'] },
-    tabs: { trainer: 'Trainer', journal: 'Journal' },
+    tabs: { trainer: 'Trainer', journal: 'Journal', about: 'Method' },
     lang: { label: 'Language', ru: 'RU', en: 'EN' },
 
     mode: { hooks: 'Hooks', scenarios: 'Scenarios', label: 'Mode', all: 'All areas' },
@@ -174,6 +193,8 @@ export const messages = {
       yourAnswer: 'Your answer to the hook',
       placeholder: 'De-escalate → run the strategy → return a question…',
       spoken: 'Said out loud',
+      collect: 'Assemble from cards',
+      assembled: 'Assembled from cards',
     },
     s4: {
       lead: 'Take the principle as a frame. Answer four questions — briefly, in your own words.',
@@ -212,8 +233,25 @@ export const messages = {
     },
 
     footer: {
-      line1: 'A trainer based on Albert Safin’s method “Defend! Negotiate! Enjoy!”. Card material — the qcic.ru project. The physical game is available on Ozon.',
-      line2: 'Unofficial educational trainer for self-study.',
+      intro: 'A trainer based on Albert Safin’s method “Defend! Negotiate! Enjoy!”.',
+      qcic: 'Card material — qcic.ru',
+      ozon: 'Buy the game on Ozon',
+      note: 'Unofficial educational trainer for self-study.',
+    },
+
+    about: {
+      title: 'About the method',
+      lead: 'This trainer reproduces one part of Albert Safin’s system — the card game. But the method has a wider frame. A short map so you know where the skill fits.',
+      items: [
+        { name: 'Immunity: inner + outer', desc: 'Resistance to manipulation = how you relate to yourself, others and the world (inner) + your speech and behavior (outer). Anchors: values, boundaries, self-worth independent of others’ approval.' },
+        { name: 'Inner defense — one formula', desc: '“I hear a manipulation trying to make me think A, feel B, do C. Instead I choose to think X, feel Y, do Z.” This is the core — it applies to any hook.' },
+        { name: 'Diagnosis: HUNGER → HOOK → BITE', desc: 'A manipulator aims at your need (“hunger”) with a “hook”; the manipulation only works if you “bite” — react. Don’t bite, and the hook is empty.' },
+        { name: 'Verbal self-defense — 3 steps', desc: 'De-escalate (put out the fire) → answer on the merits / speech strategy → seize with an open question. The outward reply, after the inner defense.' },
+        { name: 'Attack-or-Justify → BE', desc: 'The losing reflex is to Attack or Justify. The stable state is to BE: stay present, don’t step into the role you’re pushed toward.' },
+        { name: 'Strategist vs Victim', desc: 'Only someone in the position of “effect” can be hooked. A strategist holds the position of “cause”: chooses the reaction instead of handing it to the manipulator.' },
+        { name: 'QCIC', desc: 'Question — goal-oriented open questions · Communication — effective communication · Inspiration — inspiration and creativity aligned with values · Consistency.' },
+      ],
+      source: 'Based on material from qcic.ru (Albert Safin’s project). Unofficial summary — for the primary source, refer to the author.',
     },
   },
 }
