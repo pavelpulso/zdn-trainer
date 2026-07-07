@@ -53,6 +53,18 @@ function saveEntry() {
   saved.value = true
 }
 
+const liveFormula = computed(() => {
+  const tpl = t('s2.tpl').replace('{hook}', deck.hook || '…')
+  const vals = { A: form.A, B: form.B, C: form.C, X: form.X, Y: form.Y, Z: form.Z }
+  const imposed = new Set(['A', 'B', 'C'])
+  return tpl.split(/(\|[ABCXYZ]\|)/).map((seg) => {
+    const m = seg.match(/^\|([ABCXYZ])\|$/)
+    if (!m) return { text: seg, kind: 'plain' }
+    const key = m[1]
+    return { text: vals[key]?.trim() || key, kind: imposed.has(key) ? 'imposed' : 'chosen' }
+  })
+})
+
 const sectionVal = computed({
   get: () => (deck.sectionIdx == null ? '' : String(deck.sectionIdx)),
   set: (v) => setSection(v === '' ? null : Number(v)),
@@ -137,6 +149,10 @@ const sectionVal = computed({
               <label>{{ t('s2.feel') }}<input v-model="form.Y" placeholder="Y" /></label>
               <label>{{ t('s2.act') }}<input v-model="form.Z" placeholder="Z" /></label>
             </div>
+          </div>
+          <div class="live">
+            <span class="u-eyebrow">{{ t('s2.live') }}</span>
+            <p><span v-for="(seg, i) in liveFormula" :key="i" :class="seg.kind">{{ seg.text }}</span></p>
           </div>
           <div class="actions">
             <button class="ghost" @click="go(0)">{{ t('nav.back') }}</button>
@@ -276,6 +292,12 @@ const sectionVal = computed({
 .frow label { display: grid; gap: 0.3rem; font-size: 0.72rem; color: var(--fg-mute); letter-spacing: 0.03em; }
 .frow input { background: var(--ink-900); border: 1px solid var(--line); color: var(--fg); border-radius: 8px; padding: 0.5rem 0.6rem; font-size: 0.95rem; }
 .frow input:focus-visible { border-color: var(--rs); outline: none; }
+
+.live { margin-top: 1.1rem; padding: 1rem 1.1rem; border-radius: 12px; background: var(--ink-800); border: 1px dashed var(--line); }
+.live > .u-eyebrow { display: block; margin-bottom: 0.5rem; }
+.live p { margin: 0; font-family: var(--ff-display); font-weight: 400; font-size: 1.02rem; line-height: 1.5; color: var(--fg-dim); }
+.live .imposed { color: var(--kr); font-weight: 600; }
+.live .chosen { color: var(--rs); font-weight: 600; }
 
 .field { display: grid; gap: 0.4rem; }
 .field > span { font-size: 0.85rem; color: var(--fg-dim); }

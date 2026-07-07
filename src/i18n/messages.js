@@ -57,6 +57,8 @@ export const messages = {
       lead: 'Что этот крючок пытается навязать — и что ты выбираешь вместо этого. Заполни оба ряда.',
       imposed: 'Меня заставляют', chosen: 'Я выбираю',
       think: 'думать', feel: 'чувствовать', act: 'делать',
+      live: 'Твоя формула',
+      tpl: 'Я слышу «{hook}» — меня пытаются заставить думать |A|, чувствовать |B|, делать |C|. Вместо этого я выбираю думать |X|, чувствовать |Y|, делать |Z|.',
     },
     s3: {
       lead: 'Амортизация + речевая стратегия + захват вопросом. Составь свой ответ на крючок и проговори его вслух 20 раз.',
@@ -164,6 +166,8 @@ export const messages = {
       lead: 'What this hook tries to impose — and what you choose instead. Fill in both rows.',
       imposed: 'They push me to', chosen: 'I choose to',
       think: 'think', feel: 'feel', act: 'do',
+      live: 'Your formula',
+      tpl: 'I hear “{hook}” — they’re pushing me to think |A|, feel |B|, do |C|. Instead I choose to think |X|, feel |Y|, do |Z|.',
     },
     s3: {
       lead: 'De-escalation + speech strategy + a seizing question. Compose your answer to the hook and say it out loud 20 times.',
