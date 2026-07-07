@@ -2,7 +2,7 @@
 
 > A negotiation-skills trainer that rebuilds Albert Safin's card game «Защитись! Договорись! Насладись!» ("Defend! Negotiate! Enjoy!") as a fast, offline-first web app — in Russian and English.
 
-**Live demo:** _<add Vercel URL>_
+**Live demo:** **[safin-game.vercel.app](https://safin-game.vercel.app)**
 
 The original online trainer at [qcic.ru/k-online](https://qcic.ru/k-online/) went dark — only the instructions and a few static images were left. This project brings it back as a real, self-contained app, and takes it further: a full text dataset, two languages, per-card control, and a training journal.
 
