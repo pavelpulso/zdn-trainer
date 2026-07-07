@@ -3,6 +3,9 @@ import { ref, computed } from 'vue'
 import { useI18n } from '@/i18n'
 import TrainerFlow from '@/modules/TrainerFlow.vue'
 import JournalView from '@/modules/JournalView.vue'
+import AboutView from '@/modules/AboutView.vue'
+
+const OZON_URL = 'https://www.ozon.ru/search/?text=Сафин+Защитись+Договорись+Насладись'
 
 const { t, tm, locale, setLocale } = useI18n()
 const tab = ref('trainer')
@@ -22,6 +25,7 @@ const verbs = computed(() => tm('brand.verbs'))
         <nav class="tabs" aria-label="sections">
           <button :class="{ on: tab === 'trainer' }" @click="tab = 'trainer'">{{ t('tabs.trainer') }}</button>
           <button :class="{ on: tab === 'journal' }" @click="tab = 'journal'">{{ t('tabs.journal') }}</button>
+          <button :class="{ on: tab === 'about' }" @click="tab = 'about'">{{ t('tabs.about') }}</button>
         </nav>
         <div class="lang" role="group" :aria-label="t('lang.label')">
           <button :class="{ on: locale === 'ru' }" @click="setLocale('ru')">{{ t('lang.ru') }}</button>
@@ -33,11 +37,17 @@ const verbs = computed(() => tm('brand.verbs'))
     <main class="content">
       <TrainerFlow v-show="tab === 'trainer'" />
       <JournalView v-if="tab === 'journal'" />
+      <AboutView v-if="tab === 'about'" />
     </main>
 
     <footer class="foot">
-      <p>{{ t('footer.line1') }}</p>
-      <p class="muted">{{ t('footer.line2') }}</p>
+      <p>{{ t('footer.intro') }}</p>
+      <p class="links">
+        <a href="https://qcic.ru" target="_blank" rel="noopener">{{ t('footer.qcic') }}</a>
+        <span class="sep">·</span>
+        <a :href="OZON_URL" target="_blank" rel="noopener">{{ t('footer.ozon') }}</a>
+      </p>
+      <p class="muted">{{ t('footer.note') }}</p>
     </footer>
   </div>
 </template>
@@ -86,6 +96,10 @@ const verbs = computed(() => tm('brand.verbs'))
   color: var(--fg-mute); font-size: 0.86rem; line-height: 1.6;
 }
 .foot p { margin: 0 0 0.4rem; max-width: 75ch; }
+.foot .links { display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center; }
+.foot .links a { color: var(--rs); text-decoration: none; border-bottom: 1px solid transparent; }
+.foot .links a:hover { border-color: var(--rs); }
+.foot .links .sep { color: var(--fg-mute); }
 .foot .muted { color: color-mix(in srgb, var(--fg-mute) 70%, transparent); }
 
 @keyframes drop { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }

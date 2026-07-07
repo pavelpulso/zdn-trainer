@@ -27,17 +27,17 @@ const showOriginal = ref(false)
 <template>
   <article class="tcard" :class="[cat, { compact }]" :style="{ '--edge': edge }">
     <header>
-      <span class="label"><TechniqueIcon :cat="cat" /> {{ t(`tech.${cat}.label`) }}</span>
-      <span class="right">
+      <div class="head-txt">
+        <span class="label"><TechniqueIcon :cat="cat" /> {{ t(`tech.${cat}.label`) }}</span>
         <span class="hint">{{ t(`tech.${cat}.hint`) }}</span>
-        <button v-if="refreshable" class="refresh" :title="t('card.refresh')" :aria-label="t('card.refresh')"
-          @click="emit('refresh')">
-          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor"
-            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M21 12a9 9 0 1 1-2.6-6.4M21 4v5h-5" />
-          </svg>
-        </button>
-      </span>
+      </div>
+      <button v-if="refreshable" class="refresh" :title="t('card.refresh')" :aria-label="t('card.refresh')"
+        @click="emit('refresh')">
+        <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 12a9 9 0 1 1-2.6-6.4M21 4v5h-5" />
+        </svg>
+      </button>
     </header>
 
     <ol v-if="variant === 'list'" class="items">
@@ -89,11 +89,12 @@ const showOriginal = ref(false)
 }
 header {
   display: flex;
-  align-items: baseline;
+  align-items: flex-start;
   justify-content: space-between;
   gap: 0.75rem;
   margin-bottom: 1rem;
 }
+.head-txt { display: grid; gap: 0.2rem; min-width: 0; }
 .label {
   display: inline-flex; align-items: center; gap: 0.45rem;
   font-family: var(--ff-display);
@@ -103,9 +104,8 @@ header {
   letter-spacing: -0.01em;
 }
 .label svg { flex: none; }
-.right { display: inline-flex; align-items: center; gap: 0.5rem; }
-.hint { font-size: 0.72rem; letter-spacing: 0.04em; color: var(--fg-mute); text-align: right; }
-.refresh { flex: none; width: 1.7rem; height: 1.7rem; display: grid; place-items: center; border-radius: 8px; background: var(--ink-750); border: 1px solid var(--line); color: var(--fg-dim); transition: transform 0.3s, color 0.15s, border-color 0.15s; }
+.hint { font-size: 0.72rem; letter-spacing: 0.04em; color: var(--fg-mute); }
+.refresh { flex: none; width: 1.8rem; height: 1.8rem; display: grid; place-items: center; border-radius: 8px; background: var(--ink-750); border: 1px solid var(--line); color: var(--fg-dim); transition: transform 0.3s, color 0.15s, border-color 0.15s; }
 .refresh:hover { color: var(--edge); border-color: var(--edge); }
 .refresh:active { transform: rotate(-180deg); }
 

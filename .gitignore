@@ -5,3 +5,4 @@ dist
 .vite
 src/data/i18n-tmp
 .playwright-mcp
+.vercel
